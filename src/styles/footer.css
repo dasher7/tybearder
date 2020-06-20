@@ -1,4 +1,9 @@
 .footer {
   align-self: center;
   padding: 0.8em;
+  font-size: 12px;
+}
+
+#highlight {
+  color: #cf5221d3;
 }

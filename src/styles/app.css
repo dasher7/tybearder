@@ -1,3 +1,9 @@
+::root {
+  --orange1: #ee5622;
+  --bg1: #ece4e3;
+  --bg2: #fffffc;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +15,8 @@ html {
 }
 
 body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Krona One", sans-serif;
+  background-color: #ece4e3;
 }
 
 .flex-wrapper {
@@ -25,5 +32,6 @@ body {
   align-items: flex-start;
   flex: 1;
   padding: 1em;
-  background-color: aqua;
+  background-color: #f5edeb;
+  border-radius: 5px;
 }

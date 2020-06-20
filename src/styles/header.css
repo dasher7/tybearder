@@ -1,17 +1,45 @@
 .header {
-  background-color: burlywood;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1em;
+  padding: 0.7em;
+  font-size: 20px;
 }
 
 .header-items {
   display: flex;
   margin-left: auto;
+  font-family: "Permanent Marker", cursive;
   list-style-type: none;
 }
 
 .header-items li {
   margin-right: 1em;
+}
+
+a:visited,
+a:link,
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+#logo {
+  height: 6%;
+  width: 3%;
+  margin: 0.5em;
+}
+
+#tybearder {
+  font-size: 40px;
+  margin-left: 0.5em;
+  font-family: "Rock Salt", cursive;
+}
+
+#tybearder::first-letter {
+  color: #da4a12ef;
 }
