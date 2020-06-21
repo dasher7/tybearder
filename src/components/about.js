@@ -5,10 +5,10 @@ import profile from "../images/profile.jpg"
 
 const About = () => {
   return (
-    <div className="wrapper">
-      <div className="column">
+    <div className="wrapper-about">
+      <div className="column-about">
         <h1>Hello, I'm Andrea</h1>
-        <p className="content">
+        <p className="content-about">
           I am Andrea, 26 y.o. guy from the north of Italy.
           <br />
           <br />
@@ -49,7 +49,7 @@ const About = () => {
         </p>
       </div>
 
-      <img className="profile" src={profile} />
+      <img className="profile-about" src={profile} />
     </div>
   )
 }

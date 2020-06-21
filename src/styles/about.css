@@ -2,22 +2,22 @@ h1 {
   font-family: "Rock Salt", cursive;
 }
 
-.wrapper {
+.wrapper-about {
   display: flex;
   justify-content: space-evenly;
 }
 
-.column {
+.column-about {
   display: flex;
   flex-direction: column;
 }
 
-.content {
+.content-about {
   margin: 2em 3em 2em 3em;
   font-family: "Bree Serif", serif;
 }
 
-.profile {
+.profile-about {
   width: 35%;
   height: 35%;
   border-radius: 5px;

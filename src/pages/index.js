@@ -9,6 +9,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Card />
     <Card />
+    <Card />
   </Layout>
 )
 
