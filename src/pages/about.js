@@ -1,12 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-import Image from "../components/image"
+import About from "../components/about"
 
 const about = () => {
   return (
     <Layout>
-      <h1>This will be about page.</h1>
-      <Image imageName="profile" />
+      <About />
     </Layout>
   )
 }

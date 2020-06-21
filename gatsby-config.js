@@ -35,6 +35,8 @@ module.exports = {
           `cursive`,
           "Permanent Marker",
           "cursive", // you can also specify font weights and styles
+          "Bree Serif",
+          "serif",
         ],
         display: "swap",
       },

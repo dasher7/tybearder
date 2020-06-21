@@ -1,0 +1,31 @@
+h1 {
+  font-family: "Rock Salt", cursive;
+}
+
+#highlight {
+  color: #da4a12ef;
+}
+
+.wrapper {
+  margin: 0.7em 0 0.7em 0;
+  font-family: "Bree Serif", serif;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  width: 127%;
+  margin-top: 1em;
+}
+
+.icon li {
+  list-style-type: none;
+  margin-right: 1.2em;
+  font-size: 1.8em;
+}
+
+.icon li:hover {
+  color: #da4a12ef;
+  font-weight: 800;
+  cursor: pointer;
+}
