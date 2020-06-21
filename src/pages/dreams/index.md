@@ -1,8 +1,20 @@
 ---
+author: Andrea Bredice
 title: "Dreams"
-date: 2020-05-15T13:32:56+02:00
+desc: 'There is one frightened,
+who speaks softly under his breath.
+There is one forgotten that,
+banging on every wall, wandering,
+tries to get back on the right path.
+There is one strong who,
+screaming in the face of others
+tries to drive them away,
+so as to remain alone in the whole territory,
+conquering nothingness.'
+path: /dreams
+date: 2020-05-15
 draft: false
-image: dreams.jpg
+image: dreams
 ---
 
 There is one frightened,

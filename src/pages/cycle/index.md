@@ -1,8 +1,11 @@
 ---
+author: Andrea Bredice
 title: "Cycle"
-date: 2020-05-10T13:31:49+02:00
+desc: "At the beginning, everything is nothing. Everything gets built by itself, above its roots, which grow and spread even in hostile land, in lands where nothing has managed to grow before now."
+path: /cycle
+date: 2020-05-10
 draft: false
-image: cycle_2.jpg
+image: cycle
 ---
 
 At the beginning, everything is nothing.

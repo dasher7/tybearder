@@ -1,8 +1,10 @@
 ---
 author: Andrea Bredice
 title: "The Adventure Of Bì: an untold story"
+desc: "Once upon a time there was Bì, a little red shiny plastic puppet, different from everyone else. Bì lived in the world of humans even if he was nothing but human. Bì was named in this way to remind himself he was not wanted, he just happened."
+path: /adventure-of-bi
 date: 2020-05-01
-image: "adventure.jpg"
+image: adventure
 draft: false
 ---
 

@@ -1,8 +1,16 @@
 ---
+author: Andrea Bredice
 title: "The Old Lady With The Red Lipstick"
-date: 2020-05-05T13:16:04+02:00
+desc: 'I expected a cold city.
+I expected an austere city.
+I expected a city, still in its desired nobility.
+I expected a city that screams speeches without arguments.
+I expected a city that would look at you with a eye of superiority, from top to bottom, almost snubbing you.
+I expected a detached city, almost annoyed to have you there, on its streets.'
+path: /old-lady-with-red-lipstick
+date: 2020-05-05
 draft: false
-image: turin.jpg
+image: turin
 ---
 
 I expected a cold city.

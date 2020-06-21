@@ -2,14 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Card from "../components/card"
+import BlogList from "../components/blogList"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Card />
-    <Card />
-    <Card />
+    <BlogList />
   </Layout>
 )
 

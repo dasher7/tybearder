@@ -1,31 +1,65 @@
 import React from "react"
 import "../styles/card.css"
 import blog from "../images/blog.jpg"
+import { Link } from "gatsby"
 
-const Card = () => {
+const Card = ({ index, author, title, desc, path, image }) => {
+  console.log(image)
+  const loadedImage = require("../images/turin.jpg")
+
+  const imagesPaths = {
+    turin: require("../images/turin.jpg"),
+    dreams: require("../images/dreams.jpg"),
+    echo: require("../images/echo.jpg"),
+    adventure: require("../images/adventure.jpg"),
+    cycle: require("../images/cycle.jpg"),
+  }
+
   return (
-    <div className="article-row">
+    <>
+      {index % 2 === 0 ? (
+        <div className="article-row">
+          <div className="article-column">
+            <img className="article-img" src={imagesPaths[image]}></img>
+          </div>
+          <div className="article-column">
+            <div className="article-description">
+              <h2>{title}</h2>
+              <p>{desc}</p>
+              <Link to={path}>Read More</Link>
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div className="article-row">
+          <div className="article-column">
+            <div className="article-description">
+              <h2>{title}</h2>
+              <p>{desc}</p>
+              <Link to={path}>Read More</Link>
+            </div>
+          </div>
+          <div className="article-column">
+            <img className="article-img" src={imagesPaths[image]}></img>
+          </div>
+        </div>
+      )}
+    </>
+  )
+}
+
+export default Card
+
+{
+  /**
       <div className="article-column">
         <img className="article-img" src={blog}></img>
       </div>
       <div className="article-column">
         <div className="article-description">
-          <h2>DREAMS</h2>
-          <p>
-            There is one frightened, who speaks softly under his breath. There
-            is one forgotten that, banging on every wall, wandering, tries to
-            get back on the right path. There is one strong who, screaming in
-            the face of others tries to drive them away, so as to remain alone
-            in the whole territory, conquering nothingness. There is a small one
-            that shines like the full moon on a clear summer night and there is
-            one big, cumbersome, colorless, still, it seems almost fake,
-            useless.
-          </p>
+          <h2>{title}</h2>
+          <p>{desc}</p>
           <a href="/">Read More</a>
         </div>
-      </div>
-    </div>
-  )
+      </div> */
 }
-
-export default Card
