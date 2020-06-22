@@ -6,7 +6,7 @@ import BlogList from "../components/blogList"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Tybearder - write, read and grow a beard" />
     <BlogList />
   </Layout>
 )

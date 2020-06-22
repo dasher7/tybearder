@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { graphql } from "gatsby"
 import "../styles/blogpost.css"
 
@@ -11,6 +12,7 @@ export default function Template({ data }) {
 
   return (
     <Layout>
+      <SEO title={frontmatter.title} />
       <div>
         <h1 className="blog-post-title">{frontmatter.title}</h1>
       </div>

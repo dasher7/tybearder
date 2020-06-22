@@ -13,9 +13,10 @@ const Header = ({ siteTitle }) => (
         <li>
           <Link to="/">Home</Link>
         </li>
-        <li>
+        {/**  <li>
           <Link to="/podcast">Podcast</Link>
-        </li>
+        </li> */}
+
         <li>
           <Link to="/contact">Contact</Link>
         </li>
