@@ -22,8 +22,6 @@ const BlogList = () => {
     }
   `)
 
-  console.log(data)
-
   return (
     <div>
       {data.allMarkdownRemark.edges.map((post, index) => {

@@ -1,6 +1,5 @@
 import React from "react"
 import "../styles/card.css"
-import blog from "../images/blog.jpg"
 import { Link } from "gatsby"
 
 const Card = ({ index, author, title, desc, path, image }) => {
