@@ -1,5 +1,5 @@
 .blog-post-title {
-  font-family: "Rock Salt", cursive;
+  font-family: var(--tybearder);
 }
 
 .blog-post-title::first-letter {
@@ -7,7 +7,6 @@
 }
 
 .blog-post-content {
-  font-family: "Bree Serif", serif;
   letter-spacing: 0.7px;
   line-height: 1.4em;
   margin-top: 1.5em;
@@ -19,4 +18,27 @@
 .blog-post-content p {
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+@media screen and (max-width: 1000px) {
+  .blog-post-title {
+    font-size: 25px;
+  }
+
+  .blog-post-content {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .blog-post-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blog-post-title {
+    font-size: 22px;
+    text-align: center;
+  }
 }

@@ -1,21 +1,24 @@
 h1 {
-  font-family: "Rock Salt", cursive;
+  font-family: var(--tybearder);
 }
 
 #highlight {
-  color: #da4a12ef;
+  color: var(--first-letter-highlight);
 }
 
-.wrapper {
-  margin: 0.7em 0 0.7em 0;
-  font-family: "Bree Serif", serif;
+.wrapper-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-contact {
+  margin: 2em 3em 2em 3em;
 }
 
 .icon {
   display: flex;
   justify-content: center;
-  width: 127%;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .icon li {
@@ -25,7 +28,13 @@ h1 {
 }
 
 .icon li:hover {
-  color: #da4a12ef;
+  color: var(--first-letter-highlight);
   font-weight: 800;
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .content-contact {
+    margin: 2em 0em 2em 0em;
+  }
 }

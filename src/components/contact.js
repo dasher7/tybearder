@@ -10,10 +10,9 @@ import "../styles/contact.css"
 
 const Contact = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper-contact">
       <h1>Contact me</h1>
-      <div className="wrapper">
-        {" "}
+      <div className="content-contact">
         <p>
           If you clicked on that beautiful contact link on the navbar, I truly
           hope you wanna say Hello.
@@ -71,7 +70,7 @@ const Contact = () => {
           But let's keep it straight, here are all the social useful to keep in
           touch with me:
         </p>
-        <ul className="icon icon-items">
+        <ul className="icon">
           <li>
             <FaMedium />
           </li>

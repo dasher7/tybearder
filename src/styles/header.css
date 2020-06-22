@@ -1,26 +1,7 @@
-.header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0.7em;
-  font-size: 20px;
-}
-
-.header-items {
-  display: flex;
-  margin-left: auto;
-  font-family: "Permanent Marker", cursive;
-  list-style-type: none;
-}
-
-.header-items li {
-  margin-right: 1em;
-}
-
 a:visited,
 a:link,
 a {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -37,9 +18,49 @@ a:hover {
 #tybearder {
   font-size: 40px;
   margin-left: 0.5em;
-  font-family: "Rock Salt", cursive;
+  font-family: var(tybearder);
 }
 
 #tybearder::first-letter {
-  color: #da4a12ef;
+  color: var(--first-letter-highlight);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.7em;
+  font-size: 20px;
+}
+
+.header-items {
+  display: flex;
+  margin-left: auto;
+  font-family: var(--handwrite-emphasis);
+  list-style-type: none;
+}
+
+.header-items li {
+  margin-right: 1em;
+}
+
+@media screen and (max-width: 1000px) {
+  #logo {
+    height: 10%;
+    width: 5%;
+  }
+
+  #tybearder {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #tybearder {
+    font-size: 22px;
+  }
+
+  .header-items {
+    display: none;
+  }
 }

@@ -1,5 +1,4 @@
 import React from "react"
-import Image from "../components/image"
 import "../styles/about.css"
 import profile from "../images/profile.jpg"
 
@@ -49,7 +48,7 @@ const About = () => {
         </p>
       </div>
 
-      <img className="profile-about" src={profile} />
+      <img alt="profile" className="profile-about" src={profile} />
     </div>
   )
 }

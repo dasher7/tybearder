@@ -1,5 +1,5 @@
 h1 {
-  font-family: "Rock Salt", cursive;
+  font-family: var(--tybearder);
 }
 
 .wrapper-about {
@@ -14,7 +14,6 @@ h1 {
 
 .content-about {
   margin: 2em 3em 2em 3em;
-  font-family: "Bree Serif", serif;
 }
 
 .profile-about {
@@ -22,4 +21,10 @@ h1 {
   height: 35%;
   border-radius: 5px;
   float: right;
+}
+
+@media screen and (max-width: 1000px) {
+  .profile-about {
+    float: none;
+  }
 }

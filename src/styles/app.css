@@ -1,7 +1,16 @@
-::root {
-  --orange1: #ee5622;
-  --bg1: #ece4e3;
-  --bg2: #fffffc;
+:root {
+  --copper-highlight: #ee5622;
+  --first-letter-highlight: #da4a12ef;
+  --first-letter-highlight-alpha: #da4b129c;
+  --footer-highlight: #cf5221d3;
+  --deep-background-light: #ece4e3;
+  --main-content-background: #f5edeb;
+  --blog-post-title-color: #302f4d;
+  --blog-post-font-old: "Krona One", sans-serif;
+  --blog-post-font: "Bree Serif", serif;
+  --blog-post-title: "Permanent Marker", cursive;
+  --handwrite-emphasis: "Permanent Marker", cursive;
+  --tybearder: "Rock Salt", cursive;
 }
 
 * {
@@ -15,8 +24,8 @@ html {
 }
 
 body {
-  font-family: "Krona One", sans-serif;
-  background-color: #ece4e3;
+  font-family: var(--blog-post-font);
+  background-color: var(--deep-background-light);
 }
 
 .flex-wrapper {
@@ -32,6 +41,18 @@ body {
   align-items: flex-start;
   flex: 1;
   padding: 1em;
-  background-color: #f5edeb;
+  background-color: var(--main-content-background);
   border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .flex-wrapper {
+    margin: 0 10% 0 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flex-wrapper {
+    margin: 0 3% 0 3%;
+  }
 }

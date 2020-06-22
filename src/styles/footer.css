@@ -5,5 +5,11 @@
 }
 
 #highlight {
-  color: #cf5221d3;
+  color: var(--footer-highlight);
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    font-size: 10px;
+  }
 }
