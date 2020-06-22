@@ -19,6 +19,9 @@ which grow and spread even in hostile land,
 in lands where nothing has managed to grow before now.
 <br/>
 <br/>
+![](../../images/cycle_1.jpg)
+<br/>
+<br/>
 It’s an eternal process,
 <br/>
 a process that happens faster than a flash of lightning.
@@ -43,6 +46,9 @@ everything is warmer than usual,
 everything is more florid than usual.
 <br/>
 <br/>
+![](../../images/cycle_2.jpg)
+<br/>
+<br/>
 But then it burns.
 <br/>
 It slowly burns,
@@ -54,3 +60,6 @@ what seems to be his weakness is actually his strength,
 it spreads his knowledge so that everyone can feed on it.
 <br/>
 A generosity that seems to end everything but it is just a new beginning.
+<br/>
+<br/>
+![](../../images/cycle_3.jpg)

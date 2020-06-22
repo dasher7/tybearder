@@ -8,6 +8,8 @@ draft: false
 image: echo
 ---
 
+![](../../images/echo_b.jpg)
+
 Imagine that you are walking along the main street of your City. In the midst of the crowd, with the caresses of the tangled sounds of people shielded by yours headphones, playing to the rhythm of your mood. The sun is setting and softening the wrinkles of the buildings that embrace the sides of the street. The lights of the shops, hidden by the arcades, decorate the street like a Christmas tree and fill it with smells and perfumes, as if the one the of the woman who has just touched you, without even noticing, armed with black glasses and a quick step, was not enough.
 The office is behind us, the day is over. Friends are at the bar, the evening begins.
 Close your eyes.

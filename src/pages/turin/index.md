@@ -13,6 +13,8 @@ draft: false
 image: turin
 ---
 
+![](../../images/turin_b.jpg)
+
 I expected a cold city.
 <br/>
 I expected an austere city.

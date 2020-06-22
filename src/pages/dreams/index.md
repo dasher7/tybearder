@@ -17,6 +17,8 @@ draft: false
 image: dreams
 ---
 
+![](../../images/dreams_b.jpg)
+
 There is one frightened,
 <br/>
 who speaks softly under his breath.
