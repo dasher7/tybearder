@@ -1,0 +1,22 @@
+.blog-post-title {
+  font-family: "Rock Salt", cursive;
+}
+
+.blog-post-title::first-letter {
+  color: #da4a12ef;
+}
+
+.blog-post-content {
+  font-family: "Bree Serif", serif;
+  letter-spacing: 0.7px;
+  line-height: 1.4em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.blog-post-content p {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
