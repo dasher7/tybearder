@@ -1,0 +1,76 @@
+.wrapper-about-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #e9e1e0;
+  margin: 1em 30% 1em 30%;
+  padding: 1em;
+}
+
+.wrapper-image-round {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 1em;
+}
+
+.wrapper-about-card-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-about-card-column h3,
+h4 {
+  font-style: italic;
+}
+
+.wrapper-icon-item {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.wrapper-icon-item li {
+  margin-right: 1em;
+}
+
+.wrapper-icon-item li:hover {
+  color: var(--first-letter-highlight);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1500px) {
+  .wrapper-about-card {
+    margin: 1em 25% 1em 25%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper-about-card {
+    margin: 1em 20% 1em 20%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper-about-card {
+    margin: 1em 15% 1em 15%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .wrapper-about-card {
+    margin: 1em 5% 1em 5%;
+  }
+
+  .wrapper-about-card-column h3 {
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  .wrapper-about-card-column h4 {
+    font-size: 12px;
+    font-style: italic;
+  }
+}

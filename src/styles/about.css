@@ -24,7 +24,27 @@ h1 {
 }
 
 @media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .content-about {
+    margin: 2em 1.5em 2em 1.5em;
+  }
+
+  .wrapper-about {
+    display: flex;
+    flex-direction: column;
+  }
+
   .profile-about {
-    float: none;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content-about {
+    margin: 2em 0em 2em 0em;
   }
 }

@@ -20,6 +20,23 @@
   margin-bottom: 2em;
 }
 
+.blog-footer {
+  margin: 1em;
+  color: #978a88;
+}
+
+.redirect {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+#indication {
+  color: #978a88;
+}
+
 @media screen and (max-width: 1000px) {
   .blog-post-title {
     font-size: 25px;
@@ -40,6 +57,15 @@
   .blog-post-title {
     font-size: 22px;
     text-align: center;
+  }
+
+  .blog-footer {
+    font-size: 12px;
+  }
+
+  .redirect {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -62,5 +88,10 @@
     font-size: 14px;
     margin-top: 1.6em;
     margin-bottom: 1.6em;
+  }
+
+  .blog-footer {
+    text-align: center;
+    font-size: 10px;
   }
 }
