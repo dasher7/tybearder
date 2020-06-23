@@ -42,3 +42,25 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .blog-post-title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .blog-post-content {
+    letter-spacing: 0.7px;
+    line-height: 1.4em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1.6em;
+    margin-right: 1.6em;
+  }
+
+  .blog-post-content p {
+    font-size: 14px;
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+  }
+}

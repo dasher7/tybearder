@@ -115,3 +115,13 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .article-title {
+    font-size: 18px;
+  }
+
+  .article-description-wrapper a {
+    font-size: 10px;
+  }
+}

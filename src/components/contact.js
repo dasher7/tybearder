@@ -70,26 +70,62 @@ const Contact = () => {
           But let's keep it straight, here are all the social useful to keep in
           touch with me:
         </p>
-        <ul className="icon">
-          <li>
-            <FaMedium />
-          </li>
-          <li>
-            <FaArtstation />
-          </li>
-          <li>
-            <FaInstagram />
-          </li>
-          <li>
-            <FaGithub />
-          </li>
-          <li>
-            <FaDev />
-          </li>
-        </ul>
+        <div className="contact-form">
+          <form
+            method="post"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+            name="contact"
+          >
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
+            <p>
+              <label>
+                Your Name: <input type="text" name="name" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Your Email: <input type="text" name="name" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Message: <textarea name="message"></textarea>
+              </label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+        </div>
       </div>
     </div>
   )
 }
 
 export default Contact
+
+{
+  /** 
+
+  <ul className="icon">
+        <li>
+          <FaMedium />
+        </li>
+        <li>
+          <FaArtstation />
+        </li>
+        <li>
+          <FaInstagram />
+        </li>
+        <li>
+          <FaGithub />
+        </li>
+        <li>
+          <FaDev />
+        </li>
+      </ul>
+
+*/
+}

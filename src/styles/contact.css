@@ -33,6 +33,42 @@ h1 {
   cursor: pointer;
 }
 
+.contact-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  font-family: inherit;
+  background-color: var(--deep-background-light);
+  padding: 10px;
+  border: 1 px solid #302f4d;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+button[type="submit"] {
+  height: 3em;
+  width: 6em;
+  font-family: inherit;
+  font-weight: 300;
+  color: #fff;
+  font-size: 14px;
+  background-color: var(--first-letter-highlight);
+  border-radius: 5px;
+  border: none;
+}
+
+button[type="submit"]:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 600px) {
   .content-contact {
     margin: 2em 0em 2em 0em;
