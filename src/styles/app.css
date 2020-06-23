@@ -53,12 +53,13 @@ body {
 
 @media screen and (max-width: 600px) {
   .flex-wrapper {
-    margin: 0 3% 0 3%;
+    margin: 0 4% 0 2%;
   }
 }
 
 @media screen and (max-width: 300px) {
   .flex-wrapper {
-    margin: 0 2% 0 2%;
+    margin: 0;
+    padding: 0;
   }
 }
