@@ -70,8 +70,12 @@
 }
 
 @media screen and (max-width: 400px) {
+  main {
+    width: 325px;
+  }
+
   .blog-post-title {
-    font-size: 18px;
+    font-size: 13px;
     text-align: center;
   }
 
@@ -80,12 +84,10 @@
     line-height: 1.4em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-    margin-left: 1.6em;
-    margin-right: 1.6em;
   }
 
   .blog-post-content p {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 1.6em;
     margin-bottom: 1.6em;
   }
@@ -93,5 +95,16 @@
   .blog-footer {
     text-align: center;
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  main {
+    width: 280px;
+  }
+
+  .blog-post-title {
+    font-size: 10px;
+    text-align: center;
   }
 }

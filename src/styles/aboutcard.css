@@ -74,3 +74,28 @@ h4 {
     font-style: italic;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .wrapper-about-card {
+    margin: 1em 2% 1em 2%;
+  }
+
+  .wrapper-about-card-column h3 {
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  .wrapper-about-card-column h4 {
+    font-size: 10px;
+    font-style: italic;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .wrapper-image-round {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 1em;
+  }
+}

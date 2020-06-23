@@ -30,7 +30,10 @@ export default function Template({ data }) {
       />
       <p className="blog-footer ">
         Posted on {frontmatter.date} by{" "}
-        <Link id="highlight">Andrea Bredice</Link>.
+        <Link to="/" id="highlight">
+          Andrea Bredice
+        </Link>
+        .
       </p>
       <div>
         <AboutCard />
