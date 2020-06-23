@@ -66,6 +66,15 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Tybearder`,
+        short_name: `Tybearder`,
+        start_url: `/`,
+        icon: "src/images/logo.png",
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
