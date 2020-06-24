@@ -28,13 +28,21 @@ export default function Template({ data }) {
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: html }}
       />
-      <p className="blog-footer ">
-        Posted on {frontmatter.date} by{" "}
-        <Link to="/" id="highlight">
-          Andrea Bredice
-        </Link>
-        .
-      </p>
+      <div>
+        <p className="blog-footer ">
+          Posted on {frontmatter.date} by{" "}
+          <Link to="/" id="highlight">
+            Andrea Bredice
+          </Link>
+        </p>
+        <div className="redirect">
+          <Link to="/">
+            <FaArrowLeft id="highlight" />{" "}
+            <span id="indication">Go Back to Blog</span>
+          </Link>
+        </div>
+      </div>
+
       <div>
         <AboutCard />
       </div>
