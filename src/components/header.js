@@ -19,6 +19,7 @@ const Header = ({ siteTitle }) => {
   }
 
   useEffect(() => {
+    setWindowsDimension(getWindowSize())
     function handleResize() {
       setWindowsDimension(getWindowSize())
     }
