@@ -7,15 +7,20 @@ import "../styles/header.css"
 import logo from "../images/logo.png"
 
 const Header = ({ siteTitle }) => {
+  //eslint-disable-next-line
   const { width, height } = useWindowsDimension()
   const [isMenuVisible, setMenuVisible] = useState(false)
-  console.log(width, height)
+  const safeCheckWidth = () => {
+    const safeWidth = width ? width : 1080
+    return safeWidth
+  }
+  console.log("safe width", safeCheckWidth())
   return (
     <header>
       <div className="header">
         <img id="logo" alt="tybearder-logo" src={logo} />
         <h1 id="tybearder">{siteTitle}</h1>
-        {width > 750 ? (
+        {safeCheckWidth() > 750 ? (
           <ul className="header-items">
             <li>
               <Link to="/">Home</Link>

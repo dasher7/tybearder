@@ -14,10 +14,8 @@ export function getWindowSize() {
 }
 
 export default function useWindowsDimension() {
-  const [windowsDimension, setWindowsDimension] = useState({
-    height: 1080,
-    width: 1920,
-  })
+  const [windowsDimension, setWindowsDimension] = useState({})
+
   useEffect(() => {
     function handleResize() {
       setWindowsDimension(getWindowSize())
