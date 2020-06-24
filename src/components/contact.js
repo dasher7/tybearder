@@ -1,11 +1,4 @@
 import React from "react"
-import {
-  FaMedium,
-  FaArtstation,
-  FaInstagram,
-  FaGithub,
-  FaDev,
-} from "react-icons/fa"
 import "../styles/contact.css"
 
 const Contact = () => {
@@ -77,21 +70,31 @@ const Contact = () => {
             data-netlify="true"
             name="contact"
           >
-            <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="contact" />
+            <input
+              aria-label="hidden-netlify-label"
+              type="hidden"
+              name="bot-field"
+            />
+            <input
+              aria-label="hidden-netlify-label"
+              type="hidden"
+              name="form-name"
+              value="contact"
+            />
             <p>
               <label>
-                Your Name: <input type="text" name="name" />
+                Your Name: <input aria-label="name" type="text" name="name" />
               </label>
             </p>
             <p>
               <label>
-                Your Email: <input type="text" name="name" />
+                Your Email: <input aria-label="email" type="text" name="name" />
               </label>
             </p>
             <p>
               <label>
-                Message: <textarea name="message"></textarea>
+                Message:{" "}
+                <textarea aria-label="message" name="message"></textarea>
               </label>
             </p>
             <p>
@@ -105,27 +108,3 @@ const Contact = () => {
 }
 
 export default Contact
-
-{
-  /** 
-
-  <ul className="icon">
-        <li>
-          <FaMedium />
-        </li>
-        <li>
-          <FaArtstation />
-        </li>
-        <li>
-          <FaInstagram />
-        </li>
-        <li>
-          <FaGithub />
-        </li>
-        <li>
-          <FaDev />
-        </li>
-      </ul>
-
-*/
-}

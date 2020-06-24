@@ -59,12 +59,13 @@ a:hover {
 }
 
 .mobile-menu-container {
-  background-color: #ebdddb;
+  background-color: #dbd5d4d3;
   position: fixed;
   left: 50%;
   top: 0;
   height: 100vh;
   width: 250px;
+  z-index: 20;
 }
 
 .mobile-menu-content {
