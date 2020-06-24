@@ -1,26 +1,39 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React, { useState } from "react"
-import useWindowsDimension from "../hooks/responsiveHook"
+import React, { useState, useEffect } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
 import "../styles/header.css"
 import logo from "../images/logo.png"
 
 const Header = ({ siteTitle }) => {
-  //eslint-disable-next-line
-  const { width, height } = useWindowsDimension()
+  const [windowsDimension, setWindowsDimension] = useState({})
   const [isMenuVisible, setMenuVisible] = useState(false)
-  const safeCheckWidth = () => {
-    const safeWidth = width ? width : 1080
-    return safeWidth
+
+  function getWindowSize() {
+    const { innerHeight: height, innerWidth: width } = window
+
+    return {
+      height,
+      width,
+    }
   }
-  console.log("safe width", safeCheckWidth())
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowsDimension(getWindowSize())
+    }
+    window.addEventListener("resize", handleResize)
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
+
+  console.log(windowsDimension.width)
+
   return (
     <header>
       <div className="header">
         <img id="logo" alt="tybearder-logo" src={logo} />
         <h1 id="tybearder">{siteTitle}</h1>
-        {safeCheckWidth() > 750 ? (
+        {windowsDimension.width > 750 ? (
           <ul className="header-items">
             <li>
               <Link to="/">Home</Link>
@@ -78,6 +91,18 @@ Header.propTypes = {
 
 Header.defaultProps = {
   siteTitle: ``,
+}
+
+{
+  /**
+
+  //eslint-disable-next-line
+  const { width, height } = useWindowsDimension()
+  
+  const safeCheckWidth = () => {
+    const safeWidth = width ? width : 1080
+    return safeWidth
+  }*/
 }
 
 export default Header
