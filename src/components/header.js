@@ -8,6 +8,7 @@ import logo from "../images/logo.png"
 const Header = ({ siteTitle }) => {
   const [windowsDimension, setWindowsDimension] = useState({})
   const [isMenuVisible, setMenuVisible] = useState(false)
+  const [isMobileMenuActive, setMenuMobileActive] = useState(true)
 
   function getWindowSize() {
     const { innerHeight: height, innerWidth: width } = window
@@ -33,7 +34,10 @@ const Header = ({ siteTitle }) => {
     <header>
       <div className="header">
         <img id="logo" alt="tybearder-logo" src={logo} />
-        <h1 id="tybearder">{siteTitle}</h1>
+        <a href="/">
+          <h1 id="tybearder">{siteTitle}</h1>
+        </a>
+
         {windowsDimension.width > 750 ? (
           <ul className="header-items">
             <li>
@@ -52,15 +56,25 @@ const Header = ({ siteTitle }) => {
           </ul>
         ) : (
           <div className="header-items-button">
-            <button onClick={() => setMenuVisible(!isMenuVisible)}>
-              <FaBars id="highlight" />
+            <button
+              onClick={() => {
+                setMenuVisible(!isMenuVisible)
+                setMenuMobileActive(false)
+              }}
+            >
+              {isMobileMenuActive && <FaBars id="highlight" />}
             </button>
           </div>
         )}
         {isMenuVisible && (
           <div className="mobile-menu-container">
             <div className="mobile-menu-content">
-              <button onClick={() => setMenuVisible(!isMenuVisible)}>
+              <button
+                onClick={() => {
+                  setMenuVisible(!isMenuVisible)
+                  setMenuMobileActive(true)
+                }}
+              >
                 <FaTimes id="highlight" />
               </button>
               <ul className="mobile-menu-content-items">
