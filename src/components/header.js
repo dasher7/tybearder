@@ -108,16 +108,4 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-{
-  /**
-
-  //eslint-disable-next-line
-  const { width, height } = useWindowsDimension()
-  
-  const safeCheckWidth = () => {
-    const safeWidth = width ? width : 1080
-    return safeWidth
-  }*/
-}
-
 export default Header

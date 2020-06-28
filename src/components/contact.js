@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/contact.css"
+import { Link } from "gatsby"
 
 const Contact = () => {
   return (
@@ -16,7 +17,7 @@ const Contact = () => {
           <br />
           You'll find me basically on quite all the socials now available, but
           let me first tell you that I have a{" "}
-          <a id="highlight" href="https//andreabredice.dev">
+          <a id="highlight" href="https://www.andreabredice.dev/">
             personal site
           </a>
           . <br />
@@ -26,35 +27,35 @@ const Contact = () => {
           <br />
           <br />
           On{" "}
-          <a id="highlight" href="https//andreabredice.dev">
+          <a id="highlight" href="https://medium.com/@bredice.andrea">
             Medium
           </a>{" "}
           you can find all the story I publish here.
           <br />
           <br />
           On{" "}
-          <a id="highlight" href="https//andreabredice.dev">
+          <a id="highlight" href="https://www.artstation.com/andrea_bredice">
             ArtStation
           </a>{" "}
           you can find my artworks.
           <br />
           <br />
           On{" "}
-          <a id="highlight" href="https//andreabredice.dev">
+          <a id="highlight" href="https://www.instagram.com/andrea_bredice/">
             Instagram
           </a>{" "}
           you can find photos about my travels and some funny things.
           <br />
           <br />
           On{" "}
-          <a id="highlight" href="https//andreabredice.dev">
+          <a id="highlight" href="https://github.com/dasher7">
             GitHub
           </a>{" "}
           you can find all my dev projects, some of them are also interesting.
           <br />
           <br />
           On{" "}
-          <a id="highlight" href="https//andreabredice.dev">
+          <a id="highlight" href="https://dev.to/dasher7">
             DevTo
           </a>{" "}
           you can find my nerdy tech post, if you wanna get bored, go on.
