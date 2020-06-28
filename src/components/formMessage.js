@@ -10,7 +10,10 @@ const FormMessage = () => {
           I'm glad you say <span id="highlight">Hello</span>.
         </h3>
         <p>
-          I'll answer to you as quickly as I can. <span>😉</span>{" "}
+          I'll answer to you as quickly as I can.{" "}
+          <span role="img" aria-label="wink">
+            😉
+          </span>
         </p>
         <p>
           <Link to="/contact">
