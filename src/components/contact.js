@@ -68,7 +68,8 @@ const Contact = () => {
             method="post"
             netlify-honeypot="bot-field"
             data-netlify="true"
-            name="contact"
+            name="Contact me"
+            action="/thanks"
           >
             <input
               aria-label="hidden-netlify-label"

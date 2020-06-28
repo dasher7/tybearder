@@ -1,0 +1,19 @@
+#indication {
+  color: #978a88;
+}
+
+.modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.modal-bg {
+  padding: 1em;
+  border-radius: 5px;
+  background-color: var(--main-content-background);
+}
