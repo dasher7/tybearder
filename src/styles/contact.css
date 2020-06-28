@@ -69,6 +69,13 @@ button[type="submit"]:hover {
   font-weight: bolder;
 }
 
+button[type="submit"]:disabled {
+  cursor: default !important;
+  background-color: #e4e4e4;
+  transform: none;
+  font-weight: 400;
+}
+
 @media screen and (max-width: 1000px) {
   .content-contact {
     margin: 2em 1.5em 2em 1.5em;
