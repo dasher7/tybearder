@@ -9,6 +9,7 @@ import {
   FaDev,
 } from "react-icons/fa"
 import "../styles/aboutcard.css"
+import { Link } from "gatsby"
 
 const AboutCard = () => {
   return (
@@ -20,22 +21,34 @@ const AboutCard = () => {
         <div>
           <ul className="wrapper-icon-item">
             <li>
-              <FaGlobeEurope />
+              <Link to="https://www.andreabredice.dev/">
+                <FaGlobeEurope />
+              </Link>
             </li>
             <li>
-              <FaMediumM />
+              <Link to="https://medium.com/@bredice.andrea">
+                <FaMediumM />
+              </Link>
             </li>
             <li>
-              <FaArtstation />
+              <Link to="https://www.artstation.com/andrea_bredice">
+                <FaArtstation />
+              </Link>
             </li>
             <li>
-              <FaInstagram />
+              <Link to="https://www.instagram.com/andrea_bredice/">
+                <FaInstagram />
+              </Link>
             </li>
             <li>
-              <FaGithub />
+              <Link to="https://github.com/dasher7">
+                <FaGithub />
+              </Link>
             </li>
             <li>
-              <FaDev />
+              <Link to="https://dev.to/dasher7">
+                <FaDev />
+              </Link>
             </li>
           </ul>
         </div>
