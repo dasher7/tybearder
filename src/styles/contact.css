@@ -34,10 +34,7 @@ h1 {
 }
 
 .contact-form {
-  background-color: aqua;
-  margin: 0;
   display: flex;
-  justify-content: center;
   margin-top: 2em;
 }
 
@@ -78,9 +75,19 @@ button[type="submit"]:disabled {
   font-weight: 400;
 }
 
+@media screen and (max-width: 1400px) {
+  .contact-form {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .content-contact {
     margin: 2em 1.5em 2em 1.5em;
+  }
+
+  .contact-form {
+    justify-content: center;
   }
 }
 
