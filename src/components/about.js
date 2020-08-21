@@ -8,7 +8,7 @@ const About = () => {
       <div className="column-about">
         <h1>Hello, I'm Andrea</h1>
         <p className="content-about">
-          I am Andrea, 26 y.o. guy from the north of Italy.
+          I am Andrea, 27 y.o. guy from the north of Italy.
           <br />
           <br />
           Welcome to <span id="highlight">Tybearder.</span>
@@ -16,29 +16,37 @@ const About = () => {
           <br />
           What the heck is this?! Let me explain. Let’s begin with the name.
           <br />
-          It’s a fusion between typo, beard and reader or writer, depend of the
-          figure you will play, of course I truly hope you can be my reader.
+          It’s a fusion between typo, beard and reader or writer, it depends on
+          the part you will play. In your case, reader.
           <br />
           <br />
-          Why? Well, it’s a blog, so I type and you read. And the beard? I’ve
-          been having a beard since 2010. It’s kind of mark to me.
+          <span className="bold">Why Tybearder?</span>
+          <br />
+          Well, I found I like to tell stories, and writing it's a superior art
+          to express yourself. The name sum up my creativity, and beard is a
+          mark to me, since I have a beard since 2010.
           <br />
           <br />
-          What are you going to find here? You’ll find stories, stories about ..
-          dreams, mysterious nameless places all over the world, feelings and so
-          more.
+          <span className="bold">What are you going to find here?</span>
+          <br />
+          Stories about travelling. But travel to me it's not collect magnets,
+          it's going beyond myself discovering new things of me and of the
+          world. I won't tell you how cool is London, I'll tell you what's
+          London hide in itself. I won't tell you the immediate, I'll tell you
+          the essence.
           <br />
           <br />
-          But let’s be serious. I like writing about places I had visited, not
-          in the conventional way. I think every city has its story, an untold
-          story. My goal is to tell you what I felt there.
+          Plus, you will find some story I created myself, correlated with the
+          relative artworks I made along, like a mini graphic novel.
           <br />
           <br />
-          Also, my mind like to wander through various paths, and sometimes I
-          made up with funny story, like the one of a little plastic lego-boy.
+          You'll find yourself reading about a little headless lego-boy and Old
+          Lady, but fear not, there is even more to come. I hope my writing may
+          stimulate your imagination, let her fly through you thoughts freely.
           <br />
-          <br />I guess you understand nothing about this presentation, and
-          that’s good, because you must read something now!
+          <br />
+          I guess you understand nothing about this presentation, and that’s
+          good, because I now have your curiosity.
           <br />
           <br />
           Hope you enjoy.

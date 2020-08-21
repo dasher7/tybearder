@@ -83,20 +83,23 @@ const Contact = () => {
               name="form-name"
               value="contact"
             />
-            <p>
+            <p className="form-row">
               <label>
-                Your Name: <input aria-label="name" type="text" name="name" />
+                Your Name: <br />{" "}
+                <input aria-label="name" type="text" name="name" />
               </label>
             </p>
-            <p>
+            <p className="form-row">
               <label>
-                Your Email: <input aria-label="email" type="text" name="name" />
+                Your Email: <br />{" "}
+                <input aria-label="email" type="text" name="name" />
               </label>
             </p>
-            <p>
+            <p className="form-row">
               <label>
-                Message:{" "}
-                <textarea aria-label="message" name="message"></textarea>
+                Your Message:
+                <br />{" "}
+                <input type="text" aria-label="message" name="message"></input>
               </label>
             </p>
             <p>
