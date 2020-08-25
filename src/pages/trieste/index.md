@@ -71,4 +71,21 @@ here is why, when She decides it's your time, you look at her one last time.
 <hr/>
 <br/>
 <br/>
-A poem about Trieste.
+A short story about Trieste.
+<br/>
+<br/>
+A city that I have long wanted to visit and, like the best of things, it happened by chance, by pure coincidence.
+<br/> 
+<br/> 
+In Trieste you can find a rare landscape. The city is bathed by the Adriatic Sea and protected by the Alps, on the border with Croatia and overlooking Albania.
+<br/>
+<br/> 
+ A strong and audacious city, like the pier, Molo Audace, that characterizes it. Rich in history, including recent ones, like the Risiera di San Sabba, a nazi concentration camp in Italy and a place of great memory. 
+ <br/> 
+ <br/> 
+ Trieste was once a roman city, in the center there is a Roman amphitheater and an old gate, once the entrance to the city, at the time Trieste was called Tegeste. 
+ <br/> 
+ Synagogues flanked by churches, Trieste is union and mix of cultures, all based on respect. If you seek inspiration or refuge, in Trieste you will find them.
+ <br/> 
+ <br/> 
+In the photo, you can see the main square, Piazza Unità, and The Fountain of Four Continents. The photo is in black and white, so that you can paint it with colors, these two lines have aroused you.

@@ -5,6 +5,7 @@ import { graphql, Link } from "gatsby"
 import "../styles/blogpost.css"
 import { FaArrowLeft } from "react-icons/fa"
 import AboutCard from "../components/aboutCard"
+import moment from "moment"
 
 export default function Template({ data }) {
   const { markdownRemark } = data
@@ -28,7 +29,7 @@ export default function Template({ data }) {
       />
       <div>
         <p className="blog-footer ">
-          Posted on {frontmatter.date} by{" "}
+          Posted on {moment(frontmatter.date).format("MM/DD/YYYY")} by{" "}
           <Link to="/" id="highlight">
             Andrea Bredice
           </Link>
