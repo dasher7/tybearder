@@ -9,6 +9,7 @@ const Card = ({ index, author, title, desc, path, image }) => {
     echo: require("../images/echo.jpg"),
     adventure: require("../images/adventure.jpg"),
     cycle: require("../images/cycle.jpg"),
+    trieste: require("../images/trieste.jpeg"),
   }
 
   return (

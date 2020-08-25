@@ -5,7 +5,7 @@ import Card from "./card"
 const BlogList = () => {
   const data = useStaticQuery(graphql`
     query BlogPages {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
         edges {
           node {
             id
@@ -15,6 +15,7 @@ const BlogList = () => {
               path
               image
               desc
+              date
             }
           }
         }
