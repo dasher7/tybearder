@@ -61,6 +61,8 @@ This is a fiction story about my days in Copenaghen. An alternative way to tell 
 
 The main character of the story are:
 
-- The beautiful blonde girl - [The Little Mermaid](https://www.google.com)
-- The jet-black hair sister - [The Genetically Modified Little Mermaid](https://www.google.com)
-- Cristina - [Christiania](https://www.google.com)
+The beautiful blonde girl - [The Little Mermaid](https://www.google.com)
+The jet-black hair sister - [The Genetically Modified Little Mermaid](https://www.google.com)
+Cristina - [Christiania](https://www.google.com)
+
+
