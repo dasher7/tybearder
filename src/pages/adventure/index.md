@@ -27,7 +27,7 @@ Bì could not do much to avoid jokes, he had no mouth to scream and no knee to r
 <br/>
 One day Bì was, once another time, teased by the people of the town, he was surrounded by folks but then, suddenly, something happened. When things happen, not always they happen for a very reason and most of the time they happen way too fast for us to understand. Bì felt something was catching him and suddenly he found himself in an huge open field, where everything was different from what he was used to. Grass blades tall meters, rocks almost bigger than him, field so wide that he could not see the horizon.
 
-![](../../images/adventure_act_one.jpg)
+<!-- ![](../../images/adventure_act_one.jpg) -->
 
 Bì felt he did not fit, he did not belong to that huge, enormous world. It took a while to Bì to get his senses back, he was scared, shocked. Bì just stood still there, in the middle of nowhere, for who knows how long. Bì felt lost, he could not figure out why he was there and what was there, or even who brought him into that world. Bì was different from everyone else and, in his very opinion, he was very strong. With a great willpower Bì managed to get his head back, metaphorically speaking, and he began to think about what could be done.
 <br/>
@@ -47,7 +47,7 @@ Bì started walking and he walked for who knows how many hours. Time seemed to p
 <br/>
 Bì was about to lose his faith, he felt cold, tired, lonely, with almost no energy left. Bì felt like nobody could ever help him. But suddenly, once again, something happened. Bì almost fell of to an edge, an edge that, once a closer look it was given, turned out to be a footprint. Human footprints. Giant human footprints. Just after those footprints a sign, equal to the previous, made out of wood, an X on it, facing a direction that, this time, frightened Bì.
 
-![](../../images/adventure_act_two.jpg)
+<!-- ![](../../images/adventure_act_two.jpg) -->
 
 The sign was facing water, a huge expanse of water, bigger than every ocean Bì could remember. Bì was scared since he could not swim. Bì was also scared due to those footprints he just encountered. Had he to face a giant? His faith is to drowned in a dream or get stomped by a giant feet?No answer he could gave himself, and again his thoughts was about to take him over. But this was different, this time Bì dismissed his thoughts and he was sure of a thing: the moment for him to face his fears had come.
 <br/>
@@ -61,7 +61,7 @@ In that hug, Bì found some relief to all the fatigues he had to face to reach t
 <br/>
 The night has passed. Or maybe more than a night has passed. Maybe they were two, three, ten, hundreds or who knows how many. In that state, time had no importance. But then, once again, something happened. Bì felt warm, warm like never he felt. A sun was shining, shining like never before. the sky was blue as it had ever been, everything started to look more beautiful, beautiful as he was used to. And from the water, a very particular rock emerges.
 
-![](../../images/adventure_act_three.jpg)
+<!-- ![](../../images/adventure_act_three.jpg) -->
 
 Upon that rock a very particular wooden coffer shines his beauty off. All around the rock cherry blossom flowers and and grass reflects themselves into the water.
 <br/>

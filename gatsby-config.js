@@ -44,6 +44,9 @@ module.exports = {
           "cursive", // you can also specify font weights and styles
           "Bree Serif",
           "serif",
+          'Patua One', "cursive",
+          'Allerta Stencil', 'sans-serif',
+          'Vollkorn', "serif",
         ],
         display: "swap",
       },

@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import React, { useState, useEffect } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
 import "../styles/header.css"
-import logo from "../images/logo.png"
 
 const Header = ({ siteTitle }) => {
   const [windowsDimension, setWindowsDimension] = useState({})
@@ -32,26 +31,23 @@ const Header = ({ siteTitle }) => {
 
   return (
     <header>
-      <div className="header">
-        <img id="logo" alt="tybearder-logo" src={logo} />
+      <div className="tybearder-header">
         <a href="/">
-          <h1 id="tybearder">{siteTitle}</h1>
+          <h1 className='tybearder-header-title'>{siteTitle.toUpperCase()}</h1>
         </a>
 
         {windowsDimension.width > 750 ? (
-          <ul className="header-items">
+          <ul className="tybearder-header-navbar">
             <li>
-              <Link to="/">Home</Link>
+              <Link className="tybearder-header-navbar-items" to="/">HOME</Link>
             </li>
-            {/**  <li>
-          <Link to="/podcast">Podcast</Link>
-        </li> */}
-
+            <li className="tybearder-header-navbar-items">/</li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link className="tybearder-header-navbar-items" to="/contact">CONTACT</Link>
             </li>
+            <li className="tybearder-header-navbar-items">/</li>
             <li>
-              <Link to="/about">About</Link>
+              <Link className="tybearder-header-navbar-items" to="/about">ABOUT</Link>
             </li>
           </ul>
         ) : (
@@ -105,7 +101,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Tybearder`,
 }
 
 export default Header

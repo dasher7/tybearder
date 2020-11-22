@@ -8,7 +8,7 @@ draft: false
 image: copenaghen
 ---
 
-![](../../images/copenaghen.jpeg)
+<!-- ![](../../images/copenaghen.jpeg) -->
 
 8 PM and I was wandering around the main street of the city. The sky of that night was flat black and the darkness was cut only by the yellowish lights of the street lamps scattered here and there along the street. I was a man from the north, transplanted even further north, in a foreign country, with its rhythms and traditions. The shop shutters were already all down, there were few people around and everything appeared neatly calm.
 <br/>
@@ -54,15 +54,5 @@ Medium height, jet-black hair with a few shades of over-saturated green, eyes of
 <br/>
 Cristina has another peculiarity: she does not allow you to take pictures of her works. Not out of jealousy, not out of delusions of grandeur. SHe wants his works to be lived, to be told, he wants her works to leave memories to be handed down, moments and sensations to be told. Like this night, this night has left me many things to tell.
 <br/>
-
-<hr/>
-<br/>
-This is a fiction story about my days in Copenaghen. An alternative way to tell about an awesome city, so empathic. With an eye for ecology and a strong sentiment of respect.
-
-The main character of the story are:
-
-The beautiful blonde girl - [The Little Mermaid](https://www.google.com)
-The jet-black hair sister - [The Genetically Modified Little Mermaid](https://www.google.com)
-Cristina - [Christiania](https://www.google.com)
 
 

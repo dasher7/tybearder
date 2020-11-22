@@ -14,43 +14,38 @@ const Card = ({ index, author, title, desc, path, image }) => {
   }
 
   return (
-    <>
-      {index % 2 === 0 ? (
-        <div className="article-row">
-          <div className="article-column">
-            <img
-              alt="article cover left"
-              className="article-img"
-              src={imagesPaths[image]}
-            ></img>
+    <div className='tybearder-blog-list-wrapper'>
+      {
+        index % 2 === 0 ?
+        <div className="tybearder-blog-list-grid">
+        <div className='tybearder-blog-list-grid-left'>
+          <img className="tybearder-blog-list-image" alt="article cover left" src={imagesPaths[image]}></img>
+        </div>
+        <div className='tybearder-blog-list-grid-right'>
+          <div className='tybearder-blog-list-content'>
+            <h2 className='tybearder-blog-list-content-title'>{title.toUpperCase()}</h2>
+            <hr className='tybearder-blog-list-content-divider'/>
+            <p className='tybearder-blog-list-description'>{desc}</p>
+            <Link className='tybearder-blog-list-read-more' to={path}>READ MORE</Link>
           </div>
-          <div className="article-column">
-            <div className="article-description-wrapper">
-              <h2 className="article-title">{title}</h2>
-              <p className="article-description">{desc}</p>
-              <Link to={path}>Read More</Link>
+        </div>
+      </div>
+      :
+      <div className="tybearder-blog-list-grid">
+          <div className='tybearder-blog-list-grid-right'>
+            <img className="tybearder-blog-list-image" alt="article cover left" src={imagesPaths[image]}></img>
+          </div>
+          <div className='tybearder-blog-list-grid-left'>
+            <div className='tybearder-blog-list-content'>
+              <h2 className='tybearder-blog-list-content-title'>{title.toUpperCase()}</h2>
+              <hr className='tybearder-blog-list-content-divider'/>
+              <p className='tybearder-blog-list-description'>{desc}</p>
+              <Link className='tybearder-blog-list-read-more' to={path}>READ MORE</Link>
             </div>
           </div>
         </div>
-      ) : (
-        <div className="article-row">
-          <div className="article-column">
-            <div className="article-description-wrapper">
-              <h2 className="article-title">{title}</h2>
-              <p className="article-description">{desc}</p>
-              <Link to={path}>Read More</Link>
-            </div>
-          </div>
-          <div className="article-column">
-            <img
-              alt="article cover right"
-              className="article-img"
-              src={imagesPaths[image]}
-            ></img>
-          </div>
-        </div>
-      )}
-    </>
+      }
+    </div>
   )
 }
 

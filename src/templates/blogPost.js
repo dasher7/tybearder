@@ -14,36 +14,36 @@ export default function Template({ data }) {
   return (
     <Layout>
       <SEO title={frontmatter.title} />
-      <div>
-        <h1 className="blog-post-title">{frontmatter.title}</h1>
-        <div className="redirect">
-          <Link to="/">
-            <FaArrowLeft id="highlight" />{" "}
+      <div className='tybearder-blog-post-background'>
+        <div className='tybearder-blog-post-header'>
+        <h1 className="tybearder-blog-post-title">{frontmatter.title.toUpperCase()}</h1>
+          <Link className='tybearder-blog-post-go-back' to="/">
+            <FaArrowLeft id='indication'/>
             <span id="indication">Go Back to Blog</span>
           </Link>
-        </div>
-      </div>
+        </div>  
       <div
-        className="blog-post-content"
+        className="tybearder-blog-post-content"
         dangerouslySetInnerHTML={{ __html: html }}
       />
-      <div>
-        <p className="blog-footer ">
+      <div className="tybearder-blog-post-content-info">
+        <p className="tybearder-blog-post-info-date">
           Posted on {moment(frontmatter.date).format("MM/DD/YYYY")} by{" "}
-          <Link to="/" id="highlight">
+          <Link to="/" id='indication'>
             Andrea Bredice
           </Link>
         </p>
         <div className="redirect">
-          <Link to="/">
-            <FaArrowLeft id="highlight" />{" "}
+          <Link className='tybearder-blog-post-go-back' to="/">
+            <FaArrowLeft id='indication' />
             <span id="indication">Go Back to Blog</span>
           </Link>
         </div>
       </div>
 
-      <div>
+      <div className='tybearder-blog-post-about-card'>
         <AboutCard />
+      </div>
       </div>
     </Layout>
   )
