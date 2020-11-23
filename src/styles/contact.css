@@ -104,40 +104,6 @@
   font-weight: bolder;
 }
 
-/* input[type="text"] {
-  width: 62vw;
-  font-family: inherit;
-  background-color: var(--deep-background-light);
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-button[type="submit"] {
-  height: 3em;
-  width: 6em;
-  font-family: inherit;
-  font-weight: 300;
-  color: #fff;
-  font-size: 14px;
-  background-color: var(--first-letter-highlight);
-  border-radius: 5px;
-  border: none;
-}
-
-button[type="submit"]:hover {
-  cursor: pointer;
-  transform: scale(1.02);
-  font-weight: bolder;
-}
-
-button[type="submit"]:disabled {
-  cursor: default !important;
-  background-color: #e4e4e4;
-  transform: none;
-  font-weight: 400;
-} */
-
 @media screen and (max-width: 1400px) {
   .contact-form {
     justify-content: center;

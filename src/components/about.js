@@ -1,13 +1,14 @@
 import React from "react"
 import "../styles/about.css"
 import profile from "../images/profile.jpg"
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet"
 
 const About = () => {
   return (
     <div className="wrapper-about">
       <div className="column-about">
         <h1>Hello, I'm Andrea</h1>
-        <p className="content-about">
+                <p className="content-about">
           I am Andrea, 27 y.o. guy from the north of Italy.
           <br />
           <br />
