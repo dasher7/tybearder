@@ -35,7 +35,13 @@ const About = () => {
           />
         }
       </div>
-      
+      <div className='tybearder-about-description-content'>
+        <p>
+          I am really glad you reached here. Do not forget to follow me on social and do not worry: ask me anything that comes up to your mind.
+          <br/>
+          I'be really happy to know you more. Hope you liked stories and podcast.
+        </p>
+      </div>
     </div>
   )
 }
