@@ -1,26 +1,49 @@
-h1 {
-  font-family: var(--tybearder);
+.tybearder-about-wrapper {
+  background-color: var(--tybearder-background-blog-post);
+  padding: 4em 2em 2em 2em;
+  height: 100vh;
+  border-radius: 6px;
 }
 
-.wrapper-about {
-  display: flex;
-  justify-content: space-evenly;
+.tybearder-about-description-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 36px;
+  grid-row-gap: 0px;
 }
 
-.column-about {
-  display: flex;
-  flex-direction: column;
+.tybearder-about-description-image {
+
 }
 
-.content-about {
-  margin: 2em 3em 2em 3em;
+.tybearder-about-profile-image {
+  height: auto; 
+  width: auto;
+  margin-left: 2em; 
+  max-width: 500px; 
+  max-height: 500px;
 }
 
-.profile-about {
-  width: 35%;
-  height: 35%;
-  border-radius: 5px;
-  float: right;
+.tybearder-about-description-content {
+  margin-top: 2.5em;
+  font-family: var(--tybearder-header-title);
+  font-size: 18px;
+  line-height: 1.6em;
+  letter-spacing: 0.1em;
+}
+
+.tybearder-about-description-content h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--tybearder-content-title-color);
+  text-align: center;
+  margin-bottom: 1em;
+  letter-spacing: normal;
+}
+
+.tybearder-about-map {
+  margin: 4em 0;
 }
 
 .bold {

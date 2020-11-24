@@ -35,6 +35,9 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-react-leaflet'
+    },
+    {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
