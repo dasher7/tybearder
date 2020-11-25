@@ -15,10 +15,16 @@
 }
 
 .tybearder-blog-list-grid-left {
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
   grid-area: 1 / 1 / 2 / 2;
 }
 
 .tybearder-blog-list-grid-right {
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
   grid-area: 1 / 2 / 2 / 3;
 }
 
@@ -50,9 +56,11 @@
 }
 
 .tybearder-blog-list-image {
+  background-size: cover;
+  border-radius: 6px;
   height: 100%;
   width: 100%;
-  object-fit: cover;
+
 }
 
 .tybearder-blog-list-description {
