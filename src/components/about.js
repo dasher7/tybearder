@@ -1,7 +1,7 @@
 import React from "react"
 import "../styles/about.css"
 import profile from "../images/profile_color.png"
-import LeafletMap from "./leafletMap"
+import LeafletMap from "./LeafletMap"
 
 const About = () => {
 
