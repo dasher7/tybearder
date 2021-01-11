@@ -11,6 +11,18 @@
   --blog-post-title: "Permanent Marker", cursive;
   --handwrite-emphasis: "Permanent Marker", cursive;
   --tybearder: "Rock Salt", cursive;
+
+  --tybearder-background-body: #ffffff;
+  /* --tybearder-background-body: #292F36; BUON GRIGIO*/
+  /* --tybearder-background-body: #1C1717; ORIGINALE*/
+  --tybearder-background-blog-post: #EEFBFB;
+  --tybearder-header-title: 'Vollkorn', serif;
+  --tybearder-header-text-color: #DDE7EF;
+  --tybearder-content-title-color: #12232E;
+  /* --tybearder-content-title-color: #453E5B; */
+  --tybearder-background-blog-list-color: #EEFBFB;
+  /* D7D6D6 */
+
 }
 
 * {
@@ -25,41 +37,13 @@ html {
 
 body {
   font-family: var(--blog-post-font);
-  background-color: var(--deep-background-light);
+  background-color: var(--tybearder-background-body);
 }
 
-.flex-wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  margin: 0 15% 0 15%;
+.tybearder-app-wrapper {
+  /* margin: 0 5% 0 5%; */
 }
 
-.main-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex: 1;
-  padding: 1em;
-  background-color: var(--main-content-background);
-  border-radius: 5px;
-}
+.tybearder-blog-post-wrapper {
 
-@media screen and (max-width: 900px) {
-  .flex-wrapper {
-    margin: 0 10% 0 10%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .flex-wrapper {
-    margin: 0 4% 0 2%;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  .flex-wrapper {
-    margin: 0;
-    padding: 0;
-  }
 }

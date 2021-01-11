@@ -25,9 +25,9 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="flex-wrapper">
+    <div className="tybearder-app-wrapper">
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="main-content">
+      <div className="tybearder-blog-post-wrapper">
         <main>{children}</main>
       </div>
       <Footer />

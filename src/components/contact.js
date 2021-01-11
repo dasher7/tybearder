@@ -1,71 +1,46 @@
 import React from "react"
 import "../styles/contact.css"
 import { Link } from "gatsby"
+import { FaArtstation, FaDev, FaGithub, FaGlobeEurope, FaInstagram, FaMediumM } from "react-icons/fa"
 
 const Contact = () => {
   return (
-    <div className="wrapper-contact">
-      <h1>Contact me</h1>
-      <div className="content-contact">
+    <div className="tybearder-contact-wrapper">
+      <h1 className='tybearder-contact-title'>COME TO SAY HELLO</h1>
+      <div className='tybearder-contact-social-icon-wrapper'>
+          <Link className='tybearder-contact-social-icon' to='./'>
+            <FaGlobeEurope />
+          </Link>
+          <Link className='tybearder-contact-social-icon' to='./'>
+            <FaMediumM />
+          </Link>
+          <Link className='tybearder-contact-social-icon' to='./'>
+            <FaArtstation />
+          </Link>
+          <Link className='tybearder-contact-social-icon' to='./'>
+            <FaInstagram />
+          </Link>
+          <Link className='tybearder-contact-social-icon' to='./'>
+            <FaGithub />
+          </Link>
+          <Link className='tybearder-contact-social-icon' to='./'>
+            <FaDev />
+          </Link>
+      </div>
+      <div className='tybearder-contact-description-wrapper'>
         <p>
-          If you clicked on that beautiful contact link on the navbar, I truly
-          hope you wanna say Hello.
-          <br />
-          <br />I may be introspective but I love social media and have a little
-          nice chat from time to time.
-          <br />
-          <br />
-          You'll find me basically on quite all the socials now available, but
-          let me first tell you that I have a{" "}
-          <a id="highlight" href="https://www.andreabredice.dev/">
-            personal site
-          </a>
-          . <br />
-          Minimal, isn't it? Essential, I like to say. But there's almost
-          everything you need to know to keep in touch with me and to reach me
-          out, if you like it.
-          <br />
-          <br />
-          On{" "}
-          <a id="highlight" href="https://medium.com/@bredice.andrea">
-            Medium
-          </a>{" "}
-          you can find all the story I publish here.
-          <br />
-          <br />
-          On{" "}
-          <a id="highlight" href="https://www.artstation.com/andrea_bredice">
-            ArtStation
-          </a>{" "}
-          you can find my artworks.
-          <br />
-          <br />
-          On{" "}
-          <a id="highlight" href="https://www.instagram.com/andrea_bredice/">
-            Instagram
-          </a>{" "}
-          you can find photos about my travels and some funny things.
-          <br />
-          <br />
-          On{" "}
-          <a id="highlight" href="https://github.com/dasher7">
-            GitHub
-          </a>{" "}
-          you can find all my dev projects, some of them are also interesting.
-          <br />
-          <br />
-          On{" "}
-          <a id="highlight" href="https://dev.to/dasher7">
-            DevTo
-          </a>{" "}
-          you can find my nerdy tech post, if you wanna get bored, go on.
-          <br />
-          <br />
-          But let's keep it straight, here are all the social useful to keep in
-          touch with me:
+          Hello everyone! I'm really glad you reached the contact page, it must be because you wanna say hello! That's awesome.
+          <br/>
+          Let me tell you something: I may be an introspective person, I usually don't speak so much, and that's funny because I do host a podcast. But I always define my self a great listener instead of a huge speaker.
+          Irony, I guess. But let's get serious. I love social medias for many reasons: first they allow you to talk without speak, so I can share something without the very little effort and I can always choose keep some little secret.
+          Then, I love social media because they allow you to keep in touch with friends and meet tons of new people that can improve yourself sharing their thought. This is just fantastic!
+          <br/>
+          So, be short: if you wanna know me more, text me, i'll surely answer you or just come to know me more, you con find me on the social above or you can just write me an e-mail with the form below.
         </p>
-        <div className="contact-form">
+      </div>
+        <div className="tybearder-contact-form-wrapper">
           <form
+            className='tybearder-contact-form'
             method="post"
             netlify-honeypot="bot-field"
             data-netlify="true"
@@ -83,31 +58,27 @@ const Contact = () => {
               name="form-name"
               value="contact"
             />
-            <p className="form-row">
-              <label>
-                Your Name: <br />{" "}
-                <input aria-label="name" type="text" name="name" />
-              </label>
-            </p>
-            <p className="form-row">
-              <label>
-                Your Email: <br />{" "}
-                <input aria-label="email" type="text" name="name" />
-              </label>
-            </p>
-            <p className="form-row">
-              <label>
+            <div className='tybearder-contact-form-item-wrapper'>
+              <span className='tybearder-contact-form-label'>
+                Your Name: <br />
+                <input className='tybearder-contact-form-item' label='name' aria-label="name" type="text" name="name" />
+              </span>
+              <br className='tybearder-contact-form-spacer'/>
+              <span className='tybearder-contact-form-label'>
+                Your Email: <br />
+                <input className='tybearder-contact-form-item' aria-label="email" type="text" name="name" />
+              </span>
+            </div>
+           <div className='tybearder-contact-form-item-wrapper'>
+              <span className='tybearder-contact-form-label'>
                 Your Message:
-                <br />{" "}
-                <input type="text" aria-label="message" name="message"></input>
-              </label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
+                <br />
+                <input className='tybearder-contact-form-item' type="text" aria-label="message" name="message"></input>
+              </span>
+            <button className='tybearder-contact-form-button' type="submit">Send</button>
+           </div>
           </form>
         </div>
-      </div>
     </div>
   )
 }

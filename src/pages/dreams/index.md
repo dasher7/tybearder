@@ -17,8 +17,9 @@ draft: false
 image: dreams
 ---
 
-![](../../images/dreams_b.jpg)
+<!-- ![](../../images/dreams_b.jpg) -->
 
+<div style="text-align:center">
 There is one frightened,
 <br/>
 who speaks softly under his breath.
@@ -76,3 +77,4 @@ firm, unforgettable, locked up
 <br/>
 in a sphere of frozen glass.
 <br/>
+</div>
