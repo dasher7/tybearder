@@ -1,7 +1,6 @@
 import React from "react"
 import "../styles/about.css"
 import profile from "../images/profile_color.png"
-import { MapContainer } from "react-leaflet"
 import LeafletMap from "./leafletMap"
 
 const About = () => {
