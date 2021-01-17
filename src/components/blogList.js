@@ -13,6 +13,9 @@ const BlogList = () => {
   const { isMobile, isTablet } = useResponsiveDetector()
   const { height, width } = useWindowsDimension()
 
+  console.log('height', height)
+  console.log('mobile', isMobile)
+
   const data = useStaticQuery(graphql`
     query BlogPages {
       allMarkdownRemark(
@@ -58,7 +61,7 @@ const BlogList = () => {
   return (
     <div className='tybearder-blog'>
 
-      {
+      {/* {
         (!isMobile && !isTablet) &&
           <>
             <div className='test-left'>
@@ -71,7 +74,7 @@ const BlogList = () => {
               <FaArtstation className='test-icon'/>
             </div>
           </>
-      }
+      } */}
 
       {
         (!isMobile || width < 768) ?
@@ -92,7 +95,8 @@ const BlogList = () => {
             </div>
           </> :
           <div className='tybearder-postcard-wrapper-mobile'>
-            {
+            <span>mobile</span>
+            {/* {
               data.allMarkdownRemark.edges.map( (record, index) => 
                 <Postcard
                   key={index}
@@ -100,7 +104,7 @@ const BlogList = () => {
                   image={record.node.frontmatter.image}
                 />
                )
-            }
+            } */}
           </div>
       }
     </div>
