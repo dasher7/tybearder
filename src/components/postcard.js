@@ -1,7 +1,11 @@
 import React from "react"
+import useResponsiveDetector from "../hooks/useResponsiveDetector"
 import "../styles/postcard.css"
 
 const Postcard = ({ index, author, title, desc, path, image }) => {
+
+  const { isMobile } = useResponsiveDetector()
+
   const imagesPaths = {
     turin: require("../images/turin.jpg"),
     dreams: require("../images/test_2.png"),
@@ -10,13 +14,13 @@ const Postcard = ({ index, author, title, desc, path, image }) => {
     cycle: require("../images/test_2.png"),
     trieste: require("../images/test_3.png"),
     copenaghen: require("../images/test_1.png"),
-    logo: require("../images/logo_2.png"),
+    podcast: require("../images/podcast.png"),
   }
 
   return (
-    <div className='tybearder-postcard-wrapper-bis'>
-        <img src={imagesPaths[image]} className='shadow' style={{ width: 400, height: 360 }} />
-      <div className='tybearder-postcard'>
+    <div className='tybearder-postcard'>
+        <img src={imagesPaths[image]} className='tybearder-postcard-image'/>
+      <div className='tybearder-postcard-text'>
         <h3>{title.toUpperCase()}</h3>
       </div>
     </div>

@@ -1,8 +1,5 @@
 .tybearder-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  width: 100vw;
   padding: 1em 0;
 }
 
@@ -10,16 +7,32 @@
   text-decoration: none;
 }
 
-.tybearder-header-title {
-  font-size: 40px;
-  font-family: var(--tybearder-header-title);
-  color: var(--tybearder-header-text-color);
-  text-decoration: none;
-  letter-spacing: 0.2em;
+.tybearder-logo {
+  height: 5%;
+  width: 5%;
+  margin-left: 1em;
+  margin-right: 2em;
 }
 
-.tybearder-header-title::first-letter {
-  font-size: 48px;
+.tybearder-menu-icon {
+  width: 84px;
+  height: 84px;
+  margin-right: 1.5em;
+  color: var(--tybearder-content-title-color);
+}
+
+.tybearder-header-wrapper-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tybearder-header-mobile-wrapper-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .tybearder-header-navbar {
@@ -55,76 +68,18 @@
   font-size: 26px;
 }
 
-.header-items-button {
-  display: flex;
-  margin-left: auto;
-  list-style-type: none;
-}
-
-.header-items-button button {
-  border: none;
-  background: none;
-  outline: none;
-  font-size: inherit;
-}
-
-.mobile-menu-container {
-  background-color: #dbd5d4d3;
-  position: fixed;
-  left: 50%;
-  top: 0;
-  height: 100vh;
-  width: 250px;
-  z-index: 20;
-}
-
-.mobile-menu-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: end;
-  margin-top: 2em;
-}
-
-.mobile-menu-content li {
-  font-family: var(--handwrite-emphasis);
-  font-size: 22px;
-  list-style-type: none;
-  margin-bottom: 1.2em;
-}
-
-.mobile-menu-content button {
-  margin-left: 3em;
-  margin-bottom: 1em;
-  border: none;
-  background: none;
-  outline: none;
-  font-size: inherit;
-}
-
-@media screen and (max-width: 1000px) {
-  #logo {
-    height: 10%;
-    width: 5%;
+@media screen and (max-width: 768px) {
+  .tybearder-header-wrapper-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 0;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
-  #tybearder {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #tybearder {
-    font-size: 22px;
-  }
-
-  .header-items {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .mobile-menu-content {
-    margin-right: 2.5em;
+  .tybearder-logo {
+    height: 8%;
+    width: 8%;
   }
 }

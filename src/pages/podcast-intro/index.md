@@ -5,7 +5,7 @@ desc: "Descrizion di test per il podcast"
 path: /intro
 tag: 'podcast'
 date: 2020-05-01
-image: logo
+image: podcast
 draft: false
 ---
 

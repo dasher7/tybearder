@@ -1,5 +1,5 @@
 import React from "react"
-import profile from "../images/profile.jpg"
+import profile from "../images/profile_color.png"
 import {
   FaGlobeEurope,
   FaMediumM,

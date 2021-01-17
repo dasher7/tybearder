@@ -39,11 +39,3 @@ body {
   font-family: var(--blog-post-font);
   background-color: var(--tybearder-background-body);
 }
-
-.tybearder-app-wrapper {
-  /* margin: 0 5% 0 5%; */
-}
-
-.tybearder-blog-post-wrapper {
-
-}
