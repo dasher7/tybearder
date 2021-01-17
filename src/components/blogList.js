@@ -61,6 +61,49 @@ const BlogList = () => {
   return (
     <div className='tybearder-blog'>
 
+      {
+        data.allMarkdownRemark.edges.length === 0 ?
+          <span>loading</span> :
+            <>
+              <div className='tybearder-main-blog-post'>
+                  {
+                    !isMobile &&
+                    <Card
+                    key={1}
+                    index={2}
+                    author={data.allMarkdownRemark.edges[0].node.frontmatter.author}
+                    desc={data.allMarkdownRemark.edges[0].node.frontmatter.desc}
+                    image={data.allMarkdownRemark.edges[0].node.frontmatter.image}
+                    path={data.allMarkdownRemark.edges[0].node.frontmatter.path}
+                    title={data.allMarkdownRemark.edges[0].node.frontmatter.title}
+                  />
+                  }
+              </div>
+              <div className='tybearder-postcard-wrapper'>
+                {matrix}
+              </div>
+            </>
+      }
+
+          {/* <div className='tybearder-main-blog-post'>
+            {
+              !isMobile &&
+              <Card
+              key={1}
+              index={2}
+              author={data.allMarkdownRemark.edges[0].node.frontmatter.author}
+              desc={data.allMarkdownRemark.edges[0].node.frontmatter.desc}
+              image={data.allMarkdownRemark.edges[0].node.frontmatter.image}
+              path={data.allMarkdownRemark.edges[0].node.frontmatter.path}
+              title={data.allMarkdownRemark.edges[0].node.frontmatter.title}
+            />
+            }
+            </div>
+            <div className='tybearder-postcard-wrapper'>
+              {matrix}
+            </div> */}
+
+
       {/* {
         (!isMobile && !isTablet) &&
           <>
@@ -76,8 +119,8 @@ const BlogList = () => {
           </>
       } */}
 
-      {
-        (!isMobile || width < 768) ?
+      {/* {
+        !isMobile ?
           <>
             <div className='tybearder-main-blog-post'>
               <Card
@@ -96,7 +139,7 @@ const BlogList = () => {
           </> :
           <div className='tybearder-postcard-wrapper-mobile'>
             <span>mobile</span>
-            {/* {
+            {
               data.allMarkdownRemark.edges.map( (record, index) => 
                 <Postcard
                   key={index}
@@ -104,9 +147,9 @@ const BlogList = () => {
                   image={record.node.frontmatter.image}
                 />
                )
-            } */}
+            }
           </div>
-      }
+      } */}
     </div>
   )
 }
