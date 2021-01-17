@@ -6,10 +6,12 @@ import '../styles/postcard.css'
 import '../styles/sticky.css'
 import { FaArtstation, FaInstagram, FaMediumM } from "react-icons/fa"
 import useResponsiveDetector from "../hooks/useResponsiveDetector"
+import useWindowsDimension from "../hooks/responsiveHook"
 
 const BlogList = () => {
 
   const { isMobile, isTablet } = useResponsiveDetector()
+  const { height, width } = useWindowsDimension()
 
   const data = useStaticQuery(graphql`
     query BlogPages {
@@ -72,7 +74,7 @@ const BlogList = () => {
       }
 
       {
-        !isMobile ?
+        (!isMobile || width < 768) ?
           <>
             <div className='tybearder-main-blog-post'>
               <Card
