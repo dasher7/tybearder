@@ -2,6 +2,7 @@ import React from "react"
 import "../styles/about.css"
 import profile from "../images/profile_color.png"
 import LeafletMap from "./leafletmap" 
+import Image from "./image"
 
 const About = () => {
 
@@ -9,7 +10,8 @@ const About = () => {
     <div className='tybearder-about-wrapper'>
       <div className='tybearder-about-image-desc-grid'>
         <div className='tybearder-about-description-image'>
-            <img alt="profile" className="tybearder-about-profile-image" src={profile} />
+          <Image alt="profile" className="tybearder-about-profile-image" src={profile}/>
+            {/* <img alt="profile" className="tybearder-about-profile-image" src={profile} /> */}
           </div>
           <div className='tybearder-about-description-content'>
             <h1>HELLO, I AM ANDREA</h1>

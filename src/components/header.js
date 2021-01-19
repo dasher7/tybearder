@@ -5,11 +5,14 @@ import { FaGlobeEurope, FaSuitcaseRolling } from "react-icons/fa"
 import useResponsiveDetector from "../hooks/useResponsiveDetector"
 import "../styles/header.css"
 import '../styles/headermobile.css'
+import Image from "./image"
 
 const Header = ({ siteTitle }) => {
 
   const { isMobile } = useResponsiveDetector()
   const [isMobileMenu, setMenuMobile] = useState(false)
+
+  console.log(isMobile)
 
   return (
     <div className="tybearder-header">
@@ -19,9 +22,9 @@ const Header = ({ siteTitle }) => {
         <div className='tybearder-header-wrapper-flex'>
           <div className='tybearder-header-mobile-wrapper-flex'>
             <img src={require('../images/avatar_simple.png')} className='tybearder-logo'/>
-            <h1>TYBEARDER</h1>
+            <h1 className='tybearder-title'>TYBEARDER</h1>
           </div>
-          <FaGlobeEurope className={'tybearder-menu-icon'} onClick={ () => setMenuMobile(true) }/>
+          <FaGlobeEurope className='tybearder-menu-icon' onClick={ () => setMenuMobile(true) }/>
         </div> :
 
         <div className='tybearder-header-wrapper-flex'>
@@ -38,7 +41,7 @@ const Header = ({ siteTitle }) => {
                 </Link>
               </li>
             </ul>
-              <img src={require('../images/avatar_simple.png')} className='tybearder-logo'/>
+              <img src={require('../images/avatar.png')} className='tybearder-logo'/>
             <ul className="tybearder-header-navbar">
               <li>
                 <Link className="tybearder-header-navbar-items" to="/contact">

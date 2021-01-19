@@ -8,7 +8,8 @@
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color:#C0FDFB;
+  color: white;
+  background-color: var(--tybearder-content-title-color);
   width: 100%;
   height: 50vh;
   border-radius: 6px;
@@ -35,6 +36,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: white;
   line-height: 1.8em;
   padding: 2em;
   height: 100%;
@@ -49,11 +51,12 @@
   font-weight: bold;
   text-align: center;
   line-height: 1.5em;
-  color: var(--tybearder-content-title-color);
+  color: white;
+  /* color: var(--tybearder-content-title-color); */
 }
 
 .tybearder-blog-list-content-divider {
-  background-color: var(--tybearder-content-title-color);
+  background-color: white;
   height: 6px;
   border: none;
   border-radius: 2px;
@@ -63,13 +66,15 @@
 .tybearder-blog-list-description {
   font-size: 24px;
   font-family: var(--tybearder-header-title);
-  color: var(--tybearder-content-title-color);
+  color: white;
+  /* color: var(--tybearder-content-title-color); */
 }
 
 .tybearder-blog-list-read-more {
   font-size: 18px;
   font-family: var(--tybearder-header-title);
-  color: var(--tybearder-content-title-color);
+  color: white;
+  /* color: var(--tybearder-content-title-color); */
 }
 
 .tybearder-blog-list-read-more:hover {

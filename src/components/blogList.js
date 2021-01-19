@@ -40,23 +40,24 @@ const BlogList = () => {
     }
   `)
 
-  let matrix = []
-  const mapCardsToMatrix = () => {
-    const card = data.allMarkdownRemark.edges
-    console.log('card', data.allMarkdownRemark.edges.length)
-    const cardArray = []
-    for (let i = 0; i < card.length; i++) {
-      matrix.push(
-        <Postcard
-          key={i}
-          title={card[i].node.frontmatter.title}
-          image={card[i].node.frontmatter.image}
-        />
-      )
-      //  if ( i % 3 == 0 ) matrix.push(<br/>)
-    }
-  }
-  mapCardsToMatrix()
+  // let matrix = []
+  // const mapCardsToMatrix = () => {
+  //   const card = data.allMarkdownRemark.edges
+  //   console.log('card', data.allMarkdownRemark.edges.length)
+  //   const cardArray = []
+  //   for (let i = 0; i < card.length; i++) {
+  //     matrix.push(
+  //       <Postcard
+  //         key={i}
+  //         title={card[i].node.frontmatter.title}
+  //         image={card[i].node.frontmatter.image}
+  //         path={card[i].node.frontmatter.path}
+  //       />
+  //     )
+  //     //  if ( i % 3 == 0 ) matrix.push(<br/>)
+  //   }
+  // }
+  // mapCardsToMatrix()
 
   return (
     <div className='tybearder-blog'>
@@ -79,7 +80,16 @@ const BlogList = () => {
                   }
               </div>
               <div className='tybearder-postcard-wrapper'>
-                {matrix}
+                {
+                  data.allMarkdownRemark.edges.map( (post, index) => (
+                    <Postcard
+                      key={index}
+                      title={post.node.frontmatter.title}
+                      image={post.node.frontmatter.image}
+                      path={post.node.frontmatter.path}
+                    />
+                  ) )
+                }
               </div>
             </>
       }
