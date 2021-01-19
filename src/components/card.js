@@ -1,6 +1,7 @@
 import React from "react"
 import "../styles/card.css"
 import { Link } from "gatsby"
+import Image from "./image"
 
 const Card = ({ index, author, title, desc, path, image }) => {
 
@@ -19,7 +20,8 @@ const Card = ({ index, author, title, desc, path, image }) => {
     <div className='tybearder-blog-list-wrapper'>
         <div className="tybearder-blog-list-grid">
           <div className='tybearder-blog-list-grid-image'>
-            <img className="tybearder-blog-main-post-image" alt="article cover left" src={imagesPaths[image]}></img>
+            <Image className="tybearder-blog-main-post-image" alt="article cover left" filename={image}/>
+            {/* <img className="tybearder-blog-main-post-image" alt="article cover left" src={imagesPaths[image]}></img> */}
           </div>
           <div className='tybearder-blog-list-grid-right'>
             <div className='tybearder-blog-list-content'>
