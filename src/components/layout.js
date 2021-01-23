@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
   return (
     <div className="tybearder-app-wrapper">
 
-      {
+      {/* {
           isDesktop &&
             <>
               <div className='test-left'>
@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
                 <FaArtstation className='test-icon'/>
               </div>
             </>
-      }
+      } */}
 
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="tybearder-blog-post-wrapper">
