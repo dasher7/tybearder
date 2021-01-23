@@ -1,16 +1,18 @@
-import React from "react"
+import React, { useEffect, useRef, useState } from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import Footer from "./footer"
 import "../styles/app.css"
 import useResponsiveDetector from "../hooks/useResponsiveDetector"
-import { FaArtstation, FaInstagram, FaMediumM } from "react-icons/fa"
+import { FaMediumM, FaTelegram, FaInstagram } from "react-icons/fa"
+import Image from "./image"
+import useIsVisible from "../hooks/useScrollHook"
 
 const Layout = ({ children }) => {
 
-  const { isMobile, isTablet, isDesktop } = useResponsiveDetector()
+  const { isMobile, isDesktop } = useResponsiveDetector()
 
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -29,13 +31,19 @@ const Layout = ({ children }) => {
           isDesktop &&
             <>
               <div className='test-left'>
-                <span className='test-text'>IT</span>
-                <span className='test-text'>EN</span>
+                <Image className='test-text' filename='ita.png'/>
+                <Image className='test-text' filename='uk.png'/>
               </div>
               <div className='test-right'>
-                <FaInstagram className='test-icon'/>
-                <FaMediumM className='test-icon'/>
-                <FaArtstation className='test-icon'/>
+                <Link to='https://t.me/tybearder'>
+                  <FaTelegram className='test-icon'/>
+                </Link>
+                <Link to='https://www.instagram.com/andrea_bredice/'>
+                  <FaInstagram className='test-icon'/>
+                </Link>
+                <Link to='https://medium.com/@bredice.andrea'>
+                  <FaMediumM className='test-icon'/>
+                </Link>
               </div>
 
               <Header siteTitle={data.site.siteMetadata.title} />
@@ -54,7 +62,19 @@ const Layout = ({ children }) => {
             <div className="tybearder-blog-post-wrapper">
               {children}
             </div>
-          <Footer />
+            <div className='test-bottom'>
+                <Image className='test-text-bottom ' filename='ita.png'/>
+                <span>/</span>
+                <Image className='test-text-bottom ' filename='uk.png'/>
+                <hr className='divider'/>
+                <Link to='https://t.me/tybearder'>
+                  <FaTelegram className='test-icon'/>
+                </Link>
+                <span>/</span>
+                <Link to='https://www.instagram.com/andrea_bredice/'>
+                  <FaInstagram className='test-icon'/>
+                </Link>
+            </div>  
         </>
       }
 

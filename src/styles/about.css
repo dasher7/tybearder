@@ -3,6 +3,12 @@
   /* margin: 4em; */
 }
 
+.tybearder-about-title {
+  text-align: center;
+  font-family: var(--tybearder-header-title);
+  padding-top: 1em;
+}
+
 .tybearder-about-description-wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -25,6 +31,7 @@
   grid-template-rows: 1fr;
   grid-column-gap: 36px;
   grid-row-gap: 0px;
+  align-items: center;
   padding-top: 2em;
   padding-bottom: 2em;
   margin-left: 6em;
@@ -35,7 +42,6 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  align-content: center;
   margin-top: 2em;
   padding: 0em 4em;
 }
@@ -102,7 +108,7 @@
   }
 
   .tybearder-about-profile-image {
-    margin: 0;
+    margin-top: 0;
     display: none;
   }
 

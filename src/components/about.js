@@ -8,13 +8,13 @@ const About = () => {
 
   return (
     <div className='tybearder-about-wrapper'>
+      <h1 className='tybearder-about-title'>HELLO, I AM ANDREA</h1>
       <div className='tybearder-about-image-desc-grid'>
         <div className='tybearder-about-description-image'>
           <Image alt="profile" className="tybearder-about-profile-image" filename={'profile_color.png'}/>
             {/* <img alt="profile" className="tybearder-about-profile-image" src={profile} /> */}
           </div>
           <div className='tybearder-about-description-content'>
-            <h1>HELLO, I AM ANDREA</h1>
             <p>
               I am Andrea, 27 y.o. guy from the north of Italy. Welcome to <span id="highlight">Tybearder.</span>
               What the heck is this?! Let me explain. Let’s begin with the name. It’s a fusion between typo, beard and reader or writer, it depends on the part you will play. In your case, reader.
