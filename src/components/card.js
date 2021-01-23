@@ -5,16 +5,16 @@ import Image from "./image"
 
 const Card = ({ index, author, title, desc, path, image }) => {
 
-  const imagesPaths = {
-    turin: require("../images/turin.jpg"),
-    dreams: require("../images/dreams.jpg"),
-    echo: require("../images/echo.jpg"),
-    adventure: require("../images/adventure.jpg"),
-    cycle: require("../images/cycle.jpg"),
-    trieste: require("../images/test_3.png"),
-    copenaghen: require("../images/test_1.png"),
-    podcast: require('../images/podcast.png')
-  }
+  // const imagesPaths = {
+  //   turin: require("../images/turin.jpg"),
+  //   dreams: require("../images/dreams.jpg"),
+  //   echo: require("../images/echo.jpg"),
+  //   adventure: require("../images/adventure.jpg"),
+  //   cycle: require("../images/cycle.jpg"),
+  //   trieste: require("../images/test_3.png"),
+  //   copenaghen: require("../images/test_1.png"),
+  //   podcast: require('../images/podcast.png')
+  // }
 
   return (
     <div className='tybearder-blog-list-wrapper'>

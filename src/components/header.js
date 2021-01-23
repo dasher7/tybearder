@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState, useEffect } from "react"
-import { FaGlobeEurope, FaSuitcaseRolling } from "react-icons/fa"
+import { FaBars, FaTimes } from "react-icons/fa"
 import useResponsiveDetector from "../hooks/useResponsiveDetector"
 import "../styles/header.css"
 import '../styles/headermobile.css'
@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => {
             <img src={require('../images/avatar_simple.png')} className='tybearder-logo'/>
             <h1 className='tybearder-title'>TYBEARDER</h1>
           </div>
-          <FaGlobeEurope className='tybearder-menu-icon' onClick={ () => setMenuMobile(true) }/>
+          <FaBars className='tybearder-menu-icon' onClick={ () => setMenuMobile(true) }/>
         </div> :
 
         <div className='tybearder-header-wrapper-flex'>
@@ -61,7 +61,7 @@ const Header = ({ siteTitle }) => {
       {
         isMobileMenu &&
           <div id="myNav" className="overlay">
-            <FaSuitcaseRolling className="closebtn" onClick={() => setMenuMobile(false)}/>
+            <FaTimes className="closebtn" onClick={() => setMenuMobile(false)}/>
             <div className="overlay-content">
               <Link onClick={() => setMenuMobile(false)} className="tybearder-header-navbar-items" to="/">
                 HOME

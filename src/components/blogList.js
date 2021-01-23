@@ -4,17 +4,11 @@ import Card from "./card"
 import Postcard from './postcard'
 import '../styles/postcard.css'
 import '../styles/sticky.css'
-import { FaArtstation, FaInstagram, FaMediumM } from "react-icons/fa"
 import useResponsiveDetector from "../hooks/useResponsiveDetector"
-import useWindowsDimension from "../hooks/responsiveHook"
 
 const BlogList = () => {
 
   const { isMobile, isTablet } = useResponsiveDetector()
-  const { height, width } = useWindowsDimension()
-
-  console.log('height', height)
-  console.log('mobile', isMobile)
 
   const data = useStaticQuery(graphql`
     query BlogPages {
@@ -39,25 +33,6 @@ const BlogList = () => {
       }
     }
   `)
-
-  // let matrix = []
-  // const mapCardsToMatrix = () => {
-  //   const card = data.allMarkdownRemark.edges
-  //   console.log('card', data.allMarkdownRemark.edges.length)
-  //   const cardArray = []
-  //   for (let i = 0; i < card.length; i++) {
-  //     matrix.push(
-  //       <Postcard
-  //         key={i}
-  //         title={card[i].node.frontmatter.title}
-  //         image={card[i].node.frontmatter.image}
-  //         path={card[i].node.frontmatter.path}
-  //       />
-  //     )
-  //     //  if ( i % 3 == 0 ) matrix.push(<br/>)
-  //   }
-  // }
-  // mapCardsToMatrix()
 
   return (
     <div className='tybearder-blog'>

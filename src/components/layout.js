@@ -5,8 +5,13 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Footer from "./footer"
 import "../styles/app.css"
+import useResponsiveDetector from "../hooks/useResponsiveDetector"
+import { FaArtstation, FaInstagram, FaMediumM } from "react-icons/fa"
 
 const Layout = ({ children }) => {
+
+  const { isMobile, isTablet } = useResponsiveDetector()
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -20,20 +25,20 @@ const Layout = ({ children }) => {
   return (
     <div className="tybearder-app-wrapper">
 
-          {/* {
-        (!isMobile && !isTablet) &&
-          <>
-            <div className='test-left'>
-              <span className='test-text'>IT</span>
-              <span className='test-text'>EN</span>
-            </div>
-            <div className='test-right'>
-              <FaInstagram className='test-icon'/>
-              <FaMediumM className='test-icon'/>
-              <FaArtstation className='test-icon'/>
-            </div>
-          </>
-      } */}
+      {
+          !isMobile &&
+            <>
+              <div className='test-left'>
+                <span className='test-text'>IT</span>
+                <span className='test-text'>EN</span>
+              </div>
+              <div className='test-right'>
+                <FaInstagram className='test-icon'/>
+                <FaMediumM className='test-icon'/>
+                <FaArtstation className='test-icon'/>
+              </div>
+            </>
+      }
 
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="tybearder-blog-post-wrapper">

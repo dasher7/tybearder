@@ -53,6 +53,9 @@
         height: 70px !important;
         padding: none !important;
     }
+    .tybearder-postcard-text h3 {
+        font-size: 18px;
+    }
     .tybearder-postcard-image {
         width: 320px !important;
         height: 320px !important;

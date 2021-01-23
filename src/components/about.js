@@ -10,7 +10,7 @@ const About = () => {
     <div className='tybearder-about-wrapper'>
       <div className='tybearder-about-image-desc-grid'>
         <div className='tybearder-about-description-image'>
-          <Image alt="profile" className="tybearder-about-profile-image" src={profile}/>
+          <Image alt="profile" className="tybearder-about-profile-image" filename={'profile_color.png'}/>
             {/* <img alt="profile" className="tybearder-about-profile-image" src={profile} /> */}
           </div>
           <div className='tybearder-about-description-content'>

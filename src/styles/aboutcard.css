@@ -36,8 +36,8 @@
 }
 
 .tybearder-about-card-image {
-  border-radius: 50%;
-  width: 150px;
+  border-radius: 6px;
+  width: 180px;
   height: 140px;
   margin: 1em;
 }

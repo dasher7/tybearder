@@ -9,7 +9,7 @@
 .tybearder-footer a {
   text-decoration: none;
   font-weight: bold;
-  color: var(tybearder-content-title-color);
+  color: var(--tybearder-content-title-color);
 }
 
 @media screen and (max-width: 600px) {
