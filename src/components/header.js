@@ -9,7 +9,7 @@ import Image from "./image"
 
 const Header = ({ siteTitle }) => {
 
-  const { isMobile } = useResponsiveDetector()
+  const { isMobile, isDesktop } = useResponsiveDetector()
   const [isMobileMenu, setMenuMobile] = useState(false)
 
   console.log(isMobile)
@@ -18,15 +18,18 @@ const Header = ({ siteTitle }) => {
     <div className="tybearder-header">
 
       {
-        isMobile ?
+        isMobile &&
         <div className='tybearder-header-wrapper-flex'>
           <div className='tybearder-header-mobile-wrapper-flex'>
             <img src={require('../images/avatar_simple.png')} className='tybearder-logo'/>
             <h1 className='tybearder-title'>TYBEARDER</h1>
           </div>
           <FaBars className='tybearder-menu-icon' onClick={ () => setMenuMobile(true) }/>
-        </div> :
+        </div>
+      }
 
+      {
+        isDesktop &&
         <div className='tybearder-header-wrapper-flex'>
             <ul className="tybearder-header-navbar">
               <li>
