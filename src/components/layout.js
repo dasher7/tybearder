@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
     <div className="tybearder-app-wrapper">
 
       {
-          (isDesktop && !isMobile) &&
+          isDesktop &&
             <>
               <div className='test-left'>
                 <span className='test-text'>IT</span>
@@ -37,14 +37,28 @@ const Layout = ({ children }) => {
                 <FaMediumM className='test-icon'/>
                 <FaArtstation className='test-icon'/>
               </div>
+
+              <Header siteTitle={data.site.siteMetadata.title} />
+                <div className="tybearder-blog-post-wrapper">
+                  {children}
+                </div>
+              <Footer />
+
             </>
       }
 
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="tybearder-blog-post-wrapper">
-        {children}
-      </div>
-      <Footer />
+      {
+        isMobile &&
+        <>
+          <Header siteTitle={data.site.siteMetadata.title} />
+            <div className="tybearder-blog-post-wrapper">
+              {children}
+            </div>
+          <Footer />
+        </>
+      }
+
+      
     </div>
   )
 }
