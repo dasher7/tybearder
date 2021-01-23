@@ -1,6 +1,6 @@
 .tybearder-contact-wrapper {
-  padding-top: 1em;
-  margin: 3em;
+  margin-left: 4em;
+  margin-right: 4em;
 }
 
 .tybearder-contact-title {
@@ -47,23 +47,29 @@
 }
 
 .tybearder-contact-form {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  margin: 2em 4em 8em 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .tybearder-contact-form-item-wrapper {
   display: flex;
   flex-direction: column;
-  height: 25vh;
   justify-content: space-between;
   align-items: center;
   padding: 3em 1em;
 }
 
+.tybearder-contact-form-grid {
+  height: 35vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 126px;
+  grid-row-gap: 24px;
+  align-content: center;
+  justify-content: center;
+}
 
 .tybearder-contact-form-label {
   text-align: start;
@@ -109,15 +115,33 @@
 }
 
 @media screen and (max-width: 1280px) {
+
+  .tybearder-contact-wrapper {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
   .tybearder-contact-form {
-    grid-template-columns: 1fr;
     margin: 0;
+  }
+  .tybearder-contact-form-grid {
+    grid-template-columns: 1fr;
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+
+  .tybearder-contact-form-item {
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .content-contact {
     margin: 2em 1.5em 2em 1.5em;
+  }
+
+  .tybearder-contact-form-item {
+    width: 100%;
   }
 
   .contact-form {

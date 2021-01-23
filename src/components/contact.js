@@ -58,25 +58,30 @@ const Contact = () => {
               name="form-name"
               value="contact"
             />
-            <div className='tybearder-contact-form-item-wrapper'>
-              <span className='tybearder-contact-form-label'>
+
+
+            <div className='tybearder-contact-form-grid'>
+
+            <span className='tybearder-contact-form-label'>
                 Your Name: <br />
                 <input className='tybearder-contact-form-item' label='name' aria-label="name" type="text" name="name" />
               </span>
-              <br className='tybearder-contact-form-spacer'/>
+
               <span className='tybearder-contact-form-label'>
                 Your Email: <br />
                 <input className='tybearder-contact-form-item' aria-label="email" type="text" name="name" />
               </span>
-            </div>
-           <div className='tybearder-contact-form-item-wrapper'>
+
               <span className='tybearder-contact-form-label'>
                 Your Message:
                 <br />
                 <input className='tybearder-contact-form-item' type="text" aria-label="message" name="message"></input>
               </span>
-            <button className='tybearder-contact-form-button' type="submit">Send</button>
-           </div>
+
+              <button className='tybearder-contact-form-button' type="submit">Send</button>
+
+            </div>
+            
           </form>
         </div>
     </div>

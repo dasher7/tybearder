@@ -9,31 +9,6 @@
   margin: 1em;
 }
 
-@media screen and (max-width: 1208px) {
-  .tybearder-about-card {
-    width: 500px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .tybearder-about-card {
-    width: 400px !important;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .tybearder-about-card {
-    width: 550px !important;
-    padding: 1em;
-  }
-}
-
-@media screen and (max-width: 548px) {
-  .tybearder-about-card {
-    padding: 1em;
-    width: 400vw !important;
-  }
-}
 
 .tybearder-about-card-image {
   border-radius: 6px;
@@ -76,6 +51,41 @@
 .wrapper-icon-item li:hover {
   color: var(--first-letter-highlight);
   cursor: pointer;
+}
+
+@media screen and (max-width: 1208px) {
+  .tybearder-about-card {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .tybearder-about-card {
+    width: 400px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tybearder-about-card {
+    width: 550px !important;
+    padding: 1em;
+  }
+  .tybearder-about-card h3 {
+    display: none;
+  }
+  .tybearder-about-card h4 {
+    font-size: 14px;
+  }
+  .tybearder-about-card-image {
+    margin: 0.2em;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .tybearder-about-card {
+    padding: 1em;
+    width: 400vw !important;
+  }
 }
 
 @media screen and (max-width: 1500px) {
