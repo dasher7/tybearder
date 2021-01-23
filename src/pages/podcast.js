@@ -8,7 +8,7 @@ import useResponsiveDetector from "../hooks/useResponsiveDetector"
 
 const Podcast = () => {
 
-  const { isMobile } = useResponsiveDetector()
+  const { isMobile, isDesktop } = useResponsiveDetector()
 
   const data = useStaticQuery(graphql`query Podcast {
     allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {tag: {eq: "podcast"}}}) {
@@ -53,7 +53,7 @@ const Podcast = () => {
       <SEO title="Tybearder - podcast" />
 
       {
-        !isMobile ?
+        isDesktop ?
           <>
             <div className='tybearder-main-blog-post'>
               <Card

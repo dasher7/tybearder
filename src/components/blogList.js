@@ -8,7 +8,7 @@ import useResponsiveDetector from "../hooks/useResponsiveDetector"
 
 const BlogList = () => {
 
-  const { isMobile, isTablet } = useResponsiveDetector()
+  const { isMobile, isTablet, isDesktop } = useResponsiveDetector()
 
   const data = useStaticQuery(graphql`
     query BlogPages {
@@ -42,7 +42,7 @@ const BlogList = () => {
             <>
               <div className='tybearder-main-blog-post'>
                   {
-                    !isMobile &&
+                    isDesktop &&
                     <Card
                     key={1}
                     index={2}

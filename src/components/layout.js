@@ -10,7 +10,7 @@ import { FaArtstation, FaInstagram, FaMediumM } from "react-icons/fa"
 
 const Layout = ({ children }) => {
 
-  const { isMobile, isTablet } = useResponsiveDetector()
+  const { isMobile, isTablet, isDesktop } = useResponsiveDetector()
 
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -25,8 +25,8 @@ const Layout = ({ children }) => {
   return (
     <div className="tybearder-app-wrapper">
 
-      {/* {
-          !isMobile &&
+      {
+          isDesktop &&
             <>
               <div className='test-left'>
                 <span className='test-text'>IT</span>
@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
                 <FaArtstation className='test-icon'/>
               </div>
             </>
-      } */}
+      }
 
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="tybearder-blog-post-wrapper">
