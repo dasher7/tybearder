@@ -67,22 +67,22 @@ const Contact = () => {
             <div className='tybearder-contact-form-grid'>
 
             <span className='tybearder-contact-form-label'>
-                Your Name: <br />
+            <FormattedMessage id='form_name'/> <br />
                 <input className='tybearder-contact-form-item' label='name' aria-label="name" type="text" name="name" />
               </span>
 
               <span className='tybearder-contact-form-label'>
-                Your Email: <br />
+                <FormattedMessage id='form_mail'/> <br />
                 <input className='tybearder-contact-form-item' aria-label="email" type="text" name="name" />
               </span>
 
               <span className='tybearder-contact-form-label'>
-                Your Message:
+              <FormattedMessage id='form_text'/>
                 <br />
                 <input className='tybearder-contact-form-item' type="text" aria-label="message" name="message"></input>
               </span>
 
-              <button className='tybearder-contact-form-button' type="submit">Send</button>
+              <button className='tybearder-contact-form-button' type="submit"><FormattedMessage id='form_send'/></button>
 
             </div>
             
