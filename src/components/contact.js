@@ -2,11 +2,14 @@ import React from "react"
 import "../styles/contact.css"
 import { Link } from "gatsby"
 import { FaArtstation, FaDev, FaGithub, FaGlobeEurope, FaInstagram, FaMediumM } from "react-icons/fa"
+import { FormattedMessage } from "react-intl"
 
 const Contact = () => {
   return (
     <div className="tybearder-contact-wrapper">
-      <h1 className='tybearder-contact-title'>COME TO SAY HELLO</h1>
+      <h1 className='tybearder-contact-title'>
+        <FormattedMessage id='contact_title'/>
+      </h1>
       <div className='tybearder-contact-social-icon-wrapper'>
           <Link className='tybearder-contact-social-icon' to='./'>
             <FaGlobeEurope />
@@ -28,7 +31,8 @@ const Contact = () => {
           </Link>
       </div>
       <div className='tybearder-contact-description-wrapper'>
-        <p>
+        <FormattedMessage id='contact_desc'/>
+        {/* <p>
           Hello everyone! I'm really glad you reached the contact page, it must be because you wanna say hello! That's awesome.
           <br/>
           Let me tell you something: I may be an introspective person, I usually don't speak so much, and that's funny because I do host a podcast. But I always define my self a great listener instead of a huge speaker.
@@ -36,7 +40,7 @@ const Contact = () => {
           Then, I love social media because they allow you to keep in touch with friends and meet tons of new people that can improve yourself sharing their thought. This is just fantastic!
           <br/>
           So, be short: if you wanna know me more, text me, i'll surely answer you or just come to know me more, you con find me on the social above or you can just write me an e-mail with the form below.
-        </p>
+        </p> */}
       </div>
         <div className="tybearder-contact-form-wrapper">
           <form

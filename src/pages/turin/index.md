@@ -10,6 +10,7 @@ I expected a detached city, almost annoyed to have you there, on its streets.'
 path: /old-lady-with-red-lipstick
 date: 2020-05-05
 draft: false
+language: en
 image: turin
 ---
 

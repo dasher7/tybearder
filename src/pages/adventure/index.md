@@ -5,6 +5,7 @@ desc: "Once upon a time there was Bì, a little red shiny plastic puppet, differ
 path: /adventure-of-bi
 date: 2020-05-01
 image: adventure
+language: en
 draft: false
 ---
 

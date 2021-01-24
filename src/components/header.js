@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState, useEffect } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
+import { FormattedMessage } from "react-intl"
 import useResponsiveDetector from "../hooks/useResponsiveDetector"
 import "../styles/header.css"
 import '../styles/headermobile.css'
@@ -34,13 +35,15 @@ const Header = ({ siteTitle }) => {
             <ul className="tybearder-header-navbar">
               <li>
                 <Link className="tybearder-header-navbar-items" to="/">
-                  HOME
+                  <FormattedMessage id='blog'/>
+                  {/* HOME */}
                 </Link>
               </li>
               <span className="tybearder-header-navbar-separator"></span>
               <li>
                 <Link className="tybearder-header-navbar-items" to="/podcast">
-                  PODCAST
+                  <FormattedMessage id='podcast'/>
+                  {/* PODCAST */}
                 </Link>
               </li>
             </ul>
@@ -48,13 +51,15 @@ const Header = ({ siteTitle }) => {
             <ul className="tybearder-header-navbar">
               <li>
                 <Link className="tybearder-header-navbar-items" to="/contact">
-                  CONTACT
+                  <FormattedMessage id='contact'/>
+                  {/* CONTACT */}
                 </Link>
               </li>
               <span className="tybearder-header-navbar-separator"></span>
               <li>
                 <Link className="tybearder-header-navbar-items" to="/about">
-                  ABOUT
+                  <FormattedMessage id='about'/>
+                  {/* ABOUT */}
                 </Link>
               </li>
             </ul>

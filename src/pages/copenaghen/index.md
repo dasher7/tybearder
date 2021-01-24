@@ -5,6 +5,7 @@ desc: "A fiction story about my days in Copenaghen. I'll bring you to discover t
 path: /the-girls-of-nyhavn
 date: 2020-09-02
 draft: false
+language: en
 image: copenaghen
 ---
 

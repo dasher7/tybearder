@@ -5,6 +5,7 @@ desc: "Imagine that you are walking along the main street of your City. In the m
 path: /echo-of-silence
 date: 2020-05-20
 draft: false
+language: en
 image: echo
 ---
 

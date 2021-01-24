@@ -5,6 +5,7 @@ desc: "At the beginning, everything is nothing. Everything gets built by itself,
 path: /cycle
 date: 2020-05-10
 draft: false
+language: en
 image: cycle
 ---
 <div style="text-align:center">

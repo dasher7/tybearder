@@ -14,7 +14,7 @@ const BlogList = () => {
     query BlogPages {
       allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
-        filter: { frontmatter: { tag: { nin: "podcast" } } }
+        filter: { frontmatter: { tag: { nin: "podcast" }, language: { eq: "en" } } }
       ) {
         edges {
           node {

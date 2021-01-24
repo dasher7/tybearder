@@ -5,6 +5,7 @@ desc: "A poem, a little story, a lot of immagination about Trieste, a beautiful 
 path: /smile-hide-sadness
 date: 2020-08-25
 draft: false
+language: en
 image: trieste
 ---
 
