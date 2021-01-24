@@ -14,13 +14,12 @@ const enhance = compose(
     withState('lang', 'handleLanguage', 'it'),
     withHandlers({
         toggleLanguage: ({ lang, handleLanguage }) => () => {
-            console.log('LANG: ', lang, 'HANDLE LANGUAGE: ', handleLanguage)
-            if (lang === 'it') {
-                handleLanguage('en')
-                localStorage.setItem('lang', 'en')
-            } else {
+            if (lang === 'en') {
                 handleLanguage('it')
                 localStorage.setItem('lang', 'it')
+            } else {
+                handleLanguage('en')
+                localStorage.setItem('lang', 'en')
             }
         }
     }),

@@ -83,37 +83,39 @@ const Layout = ({ children }) => {
       {
         isMobile &&
         <>
-          <Header siteTitle={data.site.siteMetadata.title} />
-            <div className="tybearder-blog-post-wrapper">
-              {children}
-            </div>
-            <div className='test-bottom'>
-                <Context.Consumer>
-                  {
-                    ({toggleLanguage}) => (
-                      <Image className='test-text-bottom ' filename='ita.png' onClick={toggleLanguage}/>
-                    )
-                  }
-                </Context.Consumer>
-                {/* <Image className='test-text-bottom ' filename='ita.png'/> */}
-                <span>/</span>
-                <Context.Consumer>
-                {
-                  ({toggleLanguage}) => (
-                    <Image className='test-text-bottom ' filename='uk.png' onClick={toggleLanguage}/>
-                  )
-                }
-                </Context.Consumer>
-                {/* <Image className='test-text-bottom ' filename='uk.png'/> */}
-                <hr className='divider'/>
-                <Link to='https://t.me/tybearder'>
-                  <FaTelegram className='test-icon'/>
-                </Link>
-                <span>/</span>
-                <Link to='https://www.instagram.com/andrea_bredice/'>
-                  <FaInstagram className='test-icon'/>
-                </Link>
-            </div>  
+          <Provider>
+            <Context.Consumer>
+              {
+                ({lang, toggleLanguage}) => (
+                     <IntlProvider locale={lang} messages={lang === 'en' ? localEng : localeIt}>
+                       <>
+                       <Header siteTitle={data.site.siteMetadata.title} />
+                        <div className="tybearder-blog-post-wrapper">
+                          {children}
+                        </div>
+                        <div className='test-bottom'>
+                            <div className='test-text-bottom' onClick={toggleLanguage}>
+                              <Image filename='ita.png'/>
+                            </div>
+                            <span>/</span>
+                            <div className='test-text-bottom' onClick={toggleLanguage}>
+                              <Image filename='uk.png'/>
+                            </div>
+                            <hr className='divider'/>
+                            <Link to='https://t.me/tybearder'>
+                              <FaTelegram className='test-icon'/>
+                            </Link>
+                            <span>/</span>
+                            <Link to='https://www.instagram.com/andrea_bredice/'>
+                              <FaInstagram className='test-icon'/>
+                            </Link>
+                        </div>  
+                       </>
+                     </IntlProvider>
+                )
+              }
+            </Context.Consumer>
+          </Provider>
         </>
       }
 
