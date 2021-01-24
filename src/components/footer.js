@@ -1,4 +1,5 @@
 import React from "react"
+import { FormattedMessage } from "react-intl"
 import "../styles/footer.css"
 
 const Footer = () => {
@@ -9,8 +10,7 @@ const Footer = () => {
         <a href="https//www.andreabredice.dev">
           Andrea Bredice
         </a>
-        , 2020. Built with <a href="https://www.gatsbyjs.org">Gatsby</a> and
-        hosted with love thanks to Netlify.
+        , 2020. <FormattedMessage id='footer_desc_1'/> <a href="https://www.gatsbyjs.org">Gatsby</a><FormattedMessage id='footer_desc_2'/> 
       </p>
     </div>
   )

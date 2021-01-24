@@ -12,6 +12,8 @@
     "form_name": "Your name: ",
     "form_mail": "Your email: ",
     "form_text": "Text: ",
-    "form_send": "Send"
+    "form_send": "Send",
+    "footer_desc_1": "Built with",
+    "footer_desc_2": "and hosted with love thanks to Netlify"
 
 }

@@ -12,5 +12,7 @@
     "form_name": "Nome: ",
     "form_mail": "Mail: ",
     "form_text": "Testo: ",
-    "form_send": "Invia"
+    "form_send": "Invia",
+    "footer_desc_1": "Sviluppato con",
+    "footer_desc_2": "e hostato con amore grazie a Netlify"
 }
