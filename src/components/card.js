@@ -2,6 +2,7 @@ import React from "react"
 import "../styles/card.css"
 import { Link } from "gatsby"
 import Image from "./image"
+import { FormattedMessage } from "react-intl"
 
 const Card = ({ index, author, title, desc, path, image }) => {
 
@@ -28,7 +29,7 @@ const Card = ({ index, author, title, desc, path, image }) => {
               <h2 className='tybearder-blog-list-content-title'>{title.toUpperCase()}</h2>
               <hr className='tybearder-blog-list-content-divider'/>
               <p className='tybearder-blog-list-description'>{desc}</p>
-              <Link className='tybearder-blog-list-read-more' to={path}>READ MORE</Link>
+              <Link className='tybearder-blog-list-read-more' to={path}><FormattedMessage id='read_more'/></Link>
             </div>
           </div>
       </div>

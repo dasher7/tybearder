@@ -6,6 +6,7 @@ import "../styles/blogpost.css"
 import { FaArrowLeft } from "react-icons/fa"
 import AboutCard from "../components/aboutCard"
 import moment from "moment"
+import { FormattedMessage } from "react-intl"
 
 export default function Template({ data }) {
   const { markdownRemark } = data
@@ -19,7 +20,7 @@ export default function Template({ data }) {
         <h1 className="tybearder-blog-post-title">{frontmatter.title.toUpperCase()}</h1>
           <Link className='tybearder-blog-post-go-back' to="/">
             <FaArrowLeft id='indication'/>
-            <span id="indication">Go Back to Blog</span>
+            <span id="indication"><FormattedMessage id="back_to_blog"/></span>
           </Link>
         </div>  
       <div
@@ -28,7 +29,7 @@ export default function Template({ data }) {
       />
       <div className="tybearder-blog-post-content-info">
         <p className="tybearder-blog-post-info-date">
-          Posted on {moment(frontmatter.date).format("MM/DD/YYYY")} by{" "}
+          <FormattedMessage id="posted_on"/> {moment(frontmatter.date).format("MM/DD/YYYY")} by{" "}
           <Link to="/" id='indication'>
             Andrea Bredice
           </Link>
@@ -36,7 +37,7 @@ export default function Template({ data }) {
         <div className="redirect">
           <Link className='tybearder-blog-post-go-back' to="/">
             <FaArrowLeft id='indication' />
-            <span id="indication">Go Back to Blog</span>
+            <span id="indication"><FormattedMessage id="back_to_blog"/></span>
           </Link>
         </div>
       </div>

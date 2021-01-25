@@ -14,5 +14,10 @@
     "form_text": "Testo: ",
     "form_send": "Invia",
     "footer_desc_1": "Sviluppato con",
-    "footer_desc_2": "e hostato con amore grazie a Netlify"
+    "footer_desc_2": " e hostato con amore grazie a Netlify",
+    "read_more": "LEGGI",
+    "back_to_blog": "Torna al blog" ,
+    "posted_on": "Pubblicato il ", 
+    "about_card_title": "Spero sia stata una bella lettura",
+    "about_card_subtitle": "Se vuoi, puoi trovarmi anche qui:"
 }

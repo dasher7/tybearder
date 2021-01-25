@@ -71,16 +71,16 @@ const Header = ({ siteTitle }) => {
           <div id="myNav" className="overlay">
             <FaTimes className="closebtn" onClick={() => setMenuMobile(false)}/>
             <div className="overlay-content">
-              <Link onClick={() => setMenuMobile(false)} className="tybearder-header-navbar-items" to="/">
+              <Link onClick={() => setMenuMobile(false)} className={ `${window.location.pathname.includes('/') ? "tybearder-header-navbar-items underline" : "tybearder-header-navbar-items" }`} to="/">
                 HOME
               </Link>
-              <Link onClick={() => setMenuMobile(false)} className="tybearder-header-navbar-items" to="/podcast">
+              <Link onClick={() => setMenuMobile(false)} className={ `${window.location.pathname.includes('/podcast') ? "tybearder-header-navbar-items underline" : "tybearder-header-navbar-items" }`} to="/podcast">
                 PODCAST
               </Link>
-              <Link onClick={() => setMenuMobile(false)} className="tybearder-header-navbar-items" to="/contact">
+              <Link onClick={() => setMenuMobile(false)} className={ `${window.location.pathname.includes('/contact') ? "tybearder-header-navbar-items underline" : "tybearder-header-navbar-items" }`} to="/contact">
                 CONTACT
               </Link>
-              <Link onClick={() => setMenuMobile(false)} className="tybearder-header-navbar-items" to="/about">
+              <Link onClick={() => setMenuMobile(false)} className={ `${window.location.pathname.includes('/about') ? "tybearder-header-navbar-items underline" : "tybearder-header-navbar-items" }`} to="/about">
                 ABOUT
               </Link>
             </div>

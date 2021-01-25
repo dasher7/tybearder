@@ -10,14 +10,15 @@ import {
 } from "react-icons/fa"
 import "../styles/aboutcard.css"
 import { Link } from "gatsby"
+import { FormattedMessage } from "react-intl"
 
 const AboutCard = () => {
   return (
     <div className="tybearder-about-card">
       <img alt="profile" src={profile} className="tybearder-about-card-image" />
       <div className="tybearder-about-card-description">
-        <h3>Hope you enjoyed reading!</h3>
-        <h4>Come to say hello, you can find me here:</h4>
+        <h3><FormattedMessage id='about_card_title'/> </h3>
+        <h4><FormattedMessage id='about_card_subtitle'/></h4>
         <div>
           <ul className="tybearder-about-card-social-links">
             <li>

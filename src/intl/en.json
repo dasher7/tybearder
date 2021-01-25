@@ -14,6 +14,11 @@
     "form_text": "Text: ",
     "form_send": "Send",
     "footer_desc_1": "Built with",
-    "footer_desc_2": "and hosted with love thanks to Netlify"
+    "footer_desc_2": " and hosted with love thanks to Netlify",
+    "read_more": "READ MORE",
+    "back_to_blog": "Go back to blog",
+    "posted_on": "Posted on ",
+    "about_card_title": "Hope you enjoyed reading!",
+    "about_card_subtitle": "Come to say hello, you can find me here:"
 
 }

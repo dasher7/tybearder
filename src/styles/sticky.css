@@ -126,3 +126,13 @@
     background-color: white;
     border-radius: 6px;
 }
+
+.disabled {
+    height: 20px;
+    width: 30px;
+    color: rgba(255,255,255,0.15);
+}
+
+.flag-wrapper {
+    height: 60px;
+}
