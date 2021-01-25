@@ -1,8 +1,8 @@
 ---
 author: Andrea Bredice
-title: "Cicle"
-desc: "At the beginning, everything is nothing. Everything gets built by itself, above its roots, which grow and spread even in hostile land, in lands where nothing has managed to grow before now."
-path: /cycle
+title: "Ciclico"
+desc: "All'inizio tutto è nienta. Tutto si costruisce da sè, sulle sue radici, che sanno crescere anche nei luoghi più ostili. Anche in terre dove prima non è mai cresciuto nulla."
+path: /ciclico
 date: 2020-05-10
 draft: false
 language: it

@@ -1,8 +1,8 @@
 ---
 author: Andrea Bredice
 title: "Le avventure di Bì: una storia dimenticata"
-desc: "Once upon a time there was Bì, a little red shiny plastic puppet, different from everyone else. Bì lived in the world of humans even if he was nothing but human. Bì was named in this way to remind himself he was not wanted, he just happened."
-path: /adventure-of-bi
+desc: "C'era una volta B~i, un piccolo pupazzo di plastica rossa. Bì viveva in un mondo di umani e lui era tutto tranne che umano. Bì fu chiamato così per ricordargli sempre che era qualcosa che non doveva accadere"
+path: /avventure-di-bi
 date: 2020-05-01
 image: adventure
 language: it

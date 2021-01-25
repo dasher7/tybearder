@@ -1,8 +1,8 @@
 ---
 author: Andrea Bredice
 title: "L'eco del silenzio"
-desc: "Imagine that you are walking along the main street of your City. In the midst of the crowd, with the caresses of the tangled sounds of people shielded by yours headphones, playing to the rhythm of your mood. The sun is setting and softening the wrinkles of the buildings that embrace the sides of the street."
-path: /echo-of-silence
+desc: "Immagina di camminare per la tua città. Nel mezzo della folla, con i suoni e il brusio delle persone che viene oscurato dalla tue cuffie, sempre al passo col tuo umore. Il sole sta tramontando e le rughe dei palazzi vengono affievolite e abbracciano dolcemente la strada."
+path: /echi-del-silenzio
 date: 2020-05-20
 draft: false
 language: it
@@ -11,32 +11,25 @@ image: echo
 
 <!-- ![](../../images/echo_b.jpg) -->
 
-Imagine that you are walking along the main street of your City. In the midst of the crowd, with the caresses of the tangled sounds of people shielded by yours headphones, playing to the rhythm of your mood. The sun is setting and softening the wrinkles of the buildings that embrace the sides of the street. The lights of the shops, hidden by the arcades, decorate the street like a Christmas tree and fill it with smells and perfumes, as if the one the of the woman who has just touched you, without even noticing, armed with black glasses and a quick step, was not enough.
-The office is behind us, the day is over. Friends are at the bar, the evening begins.
-Close your eyes.
+Immagina di star camminando, lungo la via principale della tua città. In mezzo alla folla, con le carezza dei suoni aggrovigliati delle persone schermati dalle cuffie, che suonano a ritmo del tuo umore.
 <br/>
 <br/>
+Il sole sta tramontando e ammorbidisce le rughe dei palazzi che abbracciano i lati della via. Le luci dei negozi, nascoste dai portici, addobbano la strada come un albero di natale e la riempiono di odori e profumi, come non bastasse quello della donna che ti ha appena sfiorato, senza nemmeno accorgersi, aiutata dagli occhiali neri e dal passo spedito.L’ufficio è alle spalle, la giornata è finita. Gli amici sono al bar, la serata comincia.Chiudi gli occhi.Immagina di esser fermo, immobile. Abbracciato da un freddo silenzio, una luce intermittente che proietta ombre incerte sulle pareti. Ormai è notte e non c’è più nessuna serata.
 <br/>
-Imagine that you are still, motionless. Embraced by a cold silence, an intermittent light that casts uncertain shadows on the walls. It is night now and there is no more evening. You are in your bedroom, wrapped in that familiar air that is now too used to be breathable. You get up, your legs numb from the little movement, you drag yourself dangling at the window, you move the curtain and look at the emptiness with which the street is full. Judgment day, and someone decided to spare me to punish me, you think. And immediately afterwards a military man passes, armed not with a rifle and not with a megaphone, intending to stay at home: there is an enemy that cannot be defeated with lead.
-Close your eyes.
+<br/> 
+Sei nella tua camera da letto, avvolto da quell’aria di casa tanto familiare ma ormai troppo usata per essere respirabile. Ti alzi, con le gambe intorpidite dal poco movimento, ti trascini ciondolante alle finestra, scosti la tendi e osservi la vuotezza di cui è piena la strada. Il giorno del giudizio, e qualcuno ha deciso di risparmiarmi per punirmi, pensi. E subito dopo passa un militare, armato non di fucile e non di megafono, intima di stare a casa: c’è un nemico che non si può sconfiggere col piombo.Chiudi gli occhi.Immagina di correre.
 <br/>
+<br/> 
+Scalzo, lungo la riva del mare, attraverso il rosa di una tenera alba. L’odore della salsedine che si mischia al tuo sudore, la gola secca e i polmoni che si stringono, la fatica che la fa da padrone ma perde dala gioia di essere liberi e non avere un orizzonte che ti limita. Sogna di poter arrivare dove vuoi, verso l’infinito ed oltre. Poi però ti fermi, le mani si appoggiano sulle ginocchia e la schiena si curva mentre il respiro diventa sempre più affannoso.
 <br/>
-<br/>
-Imagine running. Barefoot, along the seashore, through the pink of a tender sunrise. The smell of the salt that mixes with your sweat, the dry throat and the lungs that tighten, the fatigue that is the master but loses from the joy of being free and not having a horizon that limits you. Dream of being able to get where you want, to infinity and beyond. But then you stop, the hands rest on the knees and the back curves as the breath becomes more and more labored. A drop of sweat falls from the forehead, through the closed eye it makes its way, and from the tip of the nose, it falls to the ground.
-Close your eyes.
-<br/>
-<br/>
-<br/>
-Imagine you are sitting. Your desk chair has become like a king’s throne, from which to see and hear everything there is to hear about the world. The days seem to repeat, one similar to the other, the night that mixes with the day. You have always wanted more time to devote to yourself, yet you lose in that strange and bizarre mix of stars and clouds. You have always wanted a little silence to be able to listen your own voice, far from the usual noise of the routine, but you are afraid to listen to the echo of the silence that surrounds you. Yet don’t be afraid, listen, now that nobody can see you, you don’t have to hide your heart behind the fireplace. Because if appreciating the busy crowds on Friday is an art, the same goes to populate your loneliness.
-Close your eyes.
+<br/> 
+Una goccia di sudore scende dalla fronte, attraverso l’occhio chiuso si fa strada, e dalla punta del naso, cade per terra.Chiudi gli occhi.Immagina di essere seduto. La sedia della tua scrivania è diventata come il trono di un re, da cui vedere e sentire tutto ciò che c’è da sentire a proposito del mondo. I giorni sembrano ripetersi, uno simile all’altro, la notte che si mischia col giorno. 
 <br/>
 <br/>
-<br/>
-Imagine that you are walking along the main street of your city. In the midst of the crowd, with the caresses of the tangled sounds of people shielded by headphones, playing to the rhythm of your mood. Open the bar door, your friends are there.
-Close your eyes.
+Hai sempre voluto più tempo da dedicare a te stesso, eppure di perdi in quello strano e bizzarro mischiarsi di stelle e nuvole. Hai sempre voluto un po di silenzio per poterti ascoltare, lontano dal solito rumore della routine, ma hai paura di ascoltare l’eco del silenzio che ti circonda. Eppure non aver paura, ascoltati, ora che nessuno può vederti, non devi nascondere il tuo cuore dietro il camino. Chiudi gli occhi.
 <br/>
 <br/>
+Immagina di star camminando, lungo la via principale della tua città. In mezzo alla folla, con le carezza dei suoni aggrovigliati delle persone schermati dalle cuffie, che suonano a ritmo del tuo umore. Apri la porta del bar, i tuoi amici sono lì.Chiudi gli occhi.
 <br/>
-The dreams, and the nightmares, the most ugliest, and the beautiful, all end. And if we try hard to remember, we could learn a lot. Because having a bad memory helps one to be happy but true happiness also implies commitment and pain. And we will be happy together.
 <br/>
-But not now, now close your eyes, and dream.
+I sogni, e gli incubi, i più belli, e i più brutti, tutti, finiscono. E se ci sforziamo di ricordare, potremmo imparare molto. Perché avere una cattiva memoria aiuta ad essere felici ma la vera felicità implica anche impegno e dolore. Ed saremo felici, insieme.Ma non ora, ora chiudi gli occhi, e sogna.

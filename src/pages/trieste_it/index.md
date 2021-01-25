@@ -1,7 +1,7 @@
 ---
 author: Andrea Bredice
 title: "Un sorriso che nasconde tristezza"
-desc: "A poem, a little story, a lot of immagination about Trieste, a beautiful city in the north of Italy.Svevo, Joyce, Saba wrote whilst they lived there. A lot of roman architecture, and wounds that echoes rude story, because never we have to forget, and She knows."
+desc: "Un piccolo resoconto delle emozioni che mi ha regalato Trieste. Città di grandi scrittori e ricca di storia e scorci mozzafiato"
 path: /smile-hide-sadness
 date: 2020-08-25
 draft: false
@@ -12,61 +12,59 @@ image: trieste
 <!-- ![](../../images/trieste.jpeg) -->
 
 <div style="text-align:center">
-Alone e lonely She stands.
+Sola e isolata se ne sta.
 <br/>
 <br/>
-Like those who walk with their eyes pointing to the sky, to avoid any peek or glance,
-<br/>
-but still they observe.
-<br/>
-Like those who sip an amber drink at the bar when outside it’s cold and it’s raining.
+Come chi passeggia con gli occhi al cielo, per non incrociare sguardi, ma comunque osserva.
 <br/>
 <br/>
-She has been with everyone but never she gave herself to anyone, conquered and never seduced.
-<br/>
-In her everyone found refuge, only by her hand.
-<br/>
-In her someone found death, never by her hand.
+Come chi sorseggia un drink al bancone di un bar, quando fuori piove e fa freddo.
 <br/>
 <br/>
-Tall and naked, audacious, She stands before you, proud as a warrior.
-<br/>
-She shows wrinkles and wounds, because She does not deny the kiss of the sun.
-<br/>
-Jealous of herself, She found her damnation starving for harmony.
+Di tutti è stata ma a nessuno s’è mai concessa, conquistata e mai sedotta.
 <br/>
 <br/>
-Raw and bloody, on the road left and often ignored.
-<br/>
-Regal and glaring, taken by her hand and admired.
-<br/>
-She was the cause of educated men,
-<br/>
-of barbarian men she has suffered the effects.
+In lei tutti gli altri han trovato rifugio, s’ per mano sua.
 <br/>
 <br/>
-Among men and years, she stood still, utopic constant.
-<br/>
-She learned to remember and therefore tell with her mouth shout,
-<br/>
-to guide you with her grey eyes and light you up with a smile,
-<br/>
-when it's dark and you let yourself be cherished by her curves,
-<br/>
-in an embrace that absorbs the calm and melancholy waters that wet you,
-<br/>
-of the sadness that characterizes and enhances her.
+In lei alcuni han trovato la morte, mai per mano sua.
 <br/>
 <br/>
-You don't go for her, you surrender to her,
-<br/>
-charmed, fascinated and warmed by her pearled skin,
-<br/>
-dominated and crushed by a weight that no one can bear,
-<br/>
-only her, only her,
-<br/>
-here is why, when She decides it's your time, you look at her one last time.
 <br/>
 <br/>
+Alta e nuda, audace, ti si para davanti, orgogliosa come un guerriero.
+<br/>
+<br/>
+Mostra le rughe e le ferite, perché non nega ciò che è evidente.
+<br/>
+<br/>
+Gelosa di sé stessa, per la concordia ha avuto la sua dannazione.
+<br/>
+<br/>
+<br/>
+<br/>
+Cruda e sanguinante, per strada lasciata e spesso ignorata.
+<br/>
+<br/>
+Regale e lampante, per mano presa e da tutti apprezzata.
+<br/>
+<br/>
+Di uomini colti è stata la causa,di uomini barbari ne ha subito gli effetti.
+<br/>
+<br/>
+Tra uomini e anni, lei è rimasta lei, utopica costante.
+<br/>
+<br/>
+Ha imparato a ricordare e quindi raccontare senza parlare,
+<br/>
+<br/>
+A guidarti coi suoi occhi e illuminarti col sorriso,
+<br/>
+<br/>
+quando è buio e ti lasci cullare dalle sue curve,
+<br/>
+<br/>
+in un abbraccio che assorbe le acque calme e malinconiche che ti bagnano,di una tristezza che la caratterizza e valorizza.
+
+Per lei non si va, a lei ci si abbandona, ammaliati,affascinati e riscaldati dalla sua pelle bianca,dominati e schiacciati da un peso che nessuno può reggere,solo lei, solo lei,per questo, quando decide che è il tuo momento, la guardi un’ultima volta.
 </div>
