@@ -64,6 +64,9 @@ const Layout = ({ children }) => {
                             <Link to='https://medium.com/@bredice.andrea'>
                               <FaMediumM className='test-icon'/>
                             </Link>
+                            <Link to='https://open.spotify.com/show/6SR26ieg3rGowH22ECxFd3?si=n7fvAdKJQyOvU1aqRhg--g'>
+                              <FaSpotify className='test-icon'/>
+                            </Link>
                           </div>
 
                           <Header siteTitle={data.site.siteMetadata.title} />

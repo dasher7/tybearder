@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Tybearder`,
+    title: `Scarlatte`,
     description: `A quiet and minimalistic place where you can read about fantasy real-discovered cities, lucid dreams and have a laugh.`,
     author: `Andrea Bredice`,
   },
@@ -75,8 +75,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Tybearder`,
-        short_name: `Tybearder`,
+        name: `Scarlatte`,
+        short_name: `Scarlatte`,
         start_url: `/`,
         icon: "src/images/scarlatte.png",
       },

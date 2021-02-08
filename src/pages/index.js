@@ -8,7 +8,7 @@ import {Context} from '../context/Context'
 const IndexPage = () => (
 
   <Layout>
-    <SEO title="Tybearder - write, read and grow a beard" />
+    <SEO title="Scarlatte - caldo da frigorifero" />
     <BlogList />
   </Layout>
 

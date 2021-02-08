@@ -50,7 +50,7 @@ const Podcast = () => {
 
   return (
     <Layout>
-      <SEO title="Tybearder - podcast" />
+      <SEO title="Scarlatte - podcast" />
 
       {
         isDesktop ?

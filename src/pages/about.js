@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const about = () => {
   return (
     <Layout>
-      <SEO title="About" />
+      <SEO title="Scarlatte - About" />
       <About />
     </Layout>
   )
