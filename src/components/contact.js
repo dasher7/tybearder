@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className="tybearder-contact-wrapper">
       <h1 className='tybearder-contact-title'>
-        <FormattedMessage id='contact_title'/>
+        {/* <FormattedMessage id='contact_title'/> */}
       </h1>
       <div className='tybearder-contact-social-icon-wrapper'>
           <Link className='tybearder-contact-social-icon' to='./'>

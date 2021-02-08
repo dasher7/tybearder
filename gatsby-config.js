@@ -78,7 +78,7 @@ module.exports = {
         name: `Tybearder`,
         short_name: `Tybearder`,
         start_url: `/`,
-        icon: "src/images/favicon.png",
+        icon: "src/images/scarlatte.png",
       },
     },
     {

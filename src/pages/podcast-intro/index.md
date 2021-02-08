@@ -1,22 +1,26 @@
 ---
 author: Andrea Bredice
-title: "Tybearder - #0 Intro"
-desc: "Descrizion di test per il podcast"
+title: "Carbonara - #0 Intro"
+desc: "Cosa troverete in Carbonara? Sicuramente non panna e pancetta, quelli sono severamente vietati. L'ironia sarà come il pepe, abbondante."
 path: /intro
 tag: 'podcast'
 date: 2020-05-01
-image: podcast
+image: podcast_intro
 draft: false
 ---
 
-## **Tybearder - #0 Intro**
-
-Vedete, io penso che ognuno di noi abbiamo tanto, tantissimo da dire, ma sono anche sicuro che molti di noi non lo esprimano. Spesso viviamo di mezze verità e la paura di esprimerci e, soprattutto di non essere ascoltati ci ferma.
-
-Sono una persona che pensa tanto, tantissimo, troppo!.
-E sono anche una persona che, purtroppo, parla veramente poco, soprattutto per paura di non essere ascoltato o compreso. Quindi: quale metodo migliore di parlare a nessuno sperando di essere ascoltato da tutti?.
-
-Ossimori a parte, cosa troverete in questo podcast?
-Di tutto, praticamente. Ogni puntata avrà un argomento principale, che si snoderà a partire da un film, un libro, un gioco, un'esperienza e si snoderà su tanti e varie riflessioni. Quindi storie di viaggi, riflessioni e pensieri su sensazioni provate ed esperienze.
-
-Siete pronti? La prima puntata è dedicata ad un trio: Aldo, Giovanni e Giacomo.
+## **Carbonara - #0 Intro**
+<br/>
+<br/>
+Ciao a tutti! Io sono Andrea, ho 27 anni  e questo è Carbonara.
+<br/>
+Cosa troverete in Carbonara? Sicuramente non panna e pancetta, quelli sono severamente vietati. L'ironia sarà come il pepe, abbondante.
+<br/>
+<br/>
+Per il resto qui si parla di idee che nascono mentre si guardano film o si leggono libri, tipo: perchè se New York esplode, esplode anche il mondo?
+<br/>
+<br/>
+Racconti dei miei viaggi e di quante volte mi hanno accoltellato, spoiler: sempre meno di Paul Pierce. Ed infine di quei discorsi che si fanno con gli amici quando nel sangue hai più alcool che globuli rossi. 
+<br/>
+<br/>
+L'acqua sta bollendo: vado a buttare la pasta e ci vediamo nel primo episodio.

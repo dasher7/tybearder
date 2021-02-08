@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className='tybearder-about-wrapper'>
       <h1 className='tybearder-about-title'>
-        <FormattedMessage id="about_title"/>
+        {/* <FormattedMessage id="about_title"/> */}
       </h1>
       <div className='tybearder-about-image-desc-grid'>
         <div className='tybearder-about-description-image'>

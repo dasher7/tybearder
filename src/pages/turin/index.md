@@ -46,7 +46,7 @@ Turin does not tell you anything, but Turin wants you to tell it something, beca
 <br/>
 Turin is a soul that suffers, contradictory, in constant change.
 <br/>
-Turin is an agitated city but perfectly in controll of her movement.
+Turin is an agitated city but perfectly in control of her movement.
 <br/>
 Turin is a calm sea that thrives on storms.
 <br/>
