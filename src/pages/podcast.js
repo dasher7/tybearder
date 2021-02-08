@@ -77,6 +77,7 @@ const Podcast = () => {
                   key={index}
                   title={record.node.frontmatter.title}
                   image={record.node.frontmatter.image}
+                  path={record.node.frontmatter.path}
                 />
                )
             }

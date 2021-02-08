@@ -7,6 +7,7 @@ import Image from "./image"
 
 const Postcard = ({ index, author, title, desc, path, image }) => {
 
+
   return (
     <div className='tybearder-postcard'>
       <Image className='tybearder-postcard-image' alt='cover' filename={image}/>
