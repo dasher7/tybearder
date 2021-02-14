@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => {
         isMobile &&
         <div className='tybearder-header-wrapper-flex'>
           <div className='tybearder-header-mobile-wrapper-flex'>
-          <Image filename='scarlatte.png' className='tybearder-logo'/>
+          <Image filename='scarlatte_w_bg.png' className='tybearder-logo'/>
             <h1 className='tybearder-title'>Scarlatte</h1>
           </div>
           <FaBars className='tybearder-menu-icon' onClick={ () => setMenuMobile(true) }/>
@@ -47,7 +47,7 @@ const Header = ({ siteTitle }) => {
                 </Link>
               </li>
             </ul>
-            <Image filename='scarlatte.png' className='tybearder-logo'/>
+            <Image filename='scarlatte_w_bg.png' className='tybearder-logo'/>
             <ul className="tybearder-header-navbar">
               <li>
                 <Link className="tybearder-header-navbar-items" to="/contact">

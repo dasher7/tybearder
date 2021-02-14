@@ -34,6 +34,11 @@
   background-color: var(--tybearder-content-title-color);
 }
 
+.tybearder-contact-social-icon-fa {
+  height: 32px;
+  width: 32px;
+}
+
 .tybearder-contact-description-wrapper {
   font-family: var(--tybearder-header-title);
   font-size: 20px;
@@ -92,7 +97,7 @@
 .tybearder-contact-form-button {
   height: 50px;
   width: 120px;
-  align-self: center;
+  /* align-self: center; */
   background-color: var(--tybearder-content-title-color);
   color: var(--tybearder-background-blog-post);
   font-family: var(--tybearder-header-title);

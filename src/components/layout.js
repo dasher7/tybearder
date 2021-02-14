@@ -58,14 +58,14 @@ const Layout = ({ children }) => {
                             <Link to='https://t.me/tybearder'>
                               <FaTelegram className='test-icon'/>
                             </Link>
+                            <Link to='https://open.spotify.com/show/6SR26ieg3rGowH22ECxFd3?si=n7fvAdKJQyOvU1aqRhg--g'>
+                              <FaSpotify className='test-icon'/>
+                            </Link>
                             <Link to='https://www.instagram.com/andrea_bredice/'>
                               <FaInstagram className='test-icon'/>
                             </Link>
                             <Link to='https://medium.com/@bredice.andrea'>
                               <FaMediumM className='test-icon'/>
-                            </Link>
-                            <Link to='https://open.spotify.com/show/6SR26ieg3rGowH22ECxFd3?si=n7fvAdKJQyOvU1aqRhg--g'>
-                              <FaSpotify className='test-icon'/>
                             </Link>
                           </div>
 
@@ -97,14 +97,18 @@ const Layout = ({ children }) => {
                           {children}
                         </div>
                         <div className='test-bottom'>
-                            <div className='test-text-bottom' onClick={toggleLanguage}>
+                            {/* <div className='test-text-bottom' onClick={toggleLanguage}>
                               <Image filename='ita.png'/>
                             </div>
                             <span>/</span>
                             <div className='test-text-bottom' onClick={toggleLanguage}>
                               <Image filename='uk.png'/>
-                            </div>
-                            <hr className='divider'/>
+                            </div> */}
+                            {/* <hr className='divider'/> */}
+                            <Link to='https://open.spotify.com/show/6SR26ieg3rGowH22ECxFd3?si=n7fvAdKJQyOvU1aqRhg--g'>
+                              <FaSpotify className='test-icon'/>
+                            </Link>
+                            <span>/</span>
                             <Link to='https://t.me/tybearder'>
                               <FaTelegram className='test-icon'/>
                             </Link>

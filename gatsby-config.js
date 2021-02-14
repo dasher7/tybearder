@@ -63,7 +63,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 300,
+              maxWidth: 800,
               linkImagesToOriginal: false,
               sizeByPixelDensity: true,
               showCaptions: true,
@@ -78,7 +78,7 @@ module.exports = {
         name: `Scarlatte`,
         short_name: `Scarlatte`,
         start_url: `/`,
-        icon: "src/images/scarlatte.png",
+        icon: "src/images/scarlatte_w_bg.png",
       },
     },
     {

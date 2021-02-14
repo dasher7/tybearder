@@ -14,7 +14,7 @@ draft: false
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 24px;
+        grid-column-gap: 60px;
         grid-row-gap: 24px;
         height: 700px;
         align-items: center;
