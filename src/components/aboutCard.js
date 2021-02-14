@@ -7,6 +7,8 @@ import {
   FaInstagram,
   FaGithub,
   FaDev,
+  FaTelegram,
+  FaSpotify,
 } from "react-icons/fa"
 import "../styles/aboutcard.css"
 import { Link } from "gatsby"
@@ -22,33 +24,23 @@ const AboutCard = () => {
         <div>
           <ul className="tybearder-about-card-social-links">
             <li>
-              <Link className='tybearder-about-card-social-links-icon' to="https://www.andreabredice.dev/">
-                <FaGlobeEurope />
+              <Link className='tybearder-about-card-social-links-icon' to='https://t.me/tybearder'>
+                <FaTelegram className='tybearder-about-card-social-links-icon-fa'/>
               </Link>
             </li>
             <li>
-              <Link className='tybearder-about-card-social-links-icon' to="https://medium.com/@bredice.andrea">
-                <FaMediumM />
+              <Link className='tybearder-about-card-social-links-icon' to='https://open.spotify.com/show/6SR26ieg3rGowH22ECxFd3?si=3SHKondHSruPk4gcKALeBg'>
+                <FaSpotify className='tybearder-about-card-social-links-icon-fa'/>
               </Link>
             </li>
             <li>
-              <Link className='tybearder-about-card-social-links-icon' to="https://www.artstation.com/andrea_bredice">
-                <FaArtstation />
+              <Link className='tybearder-about-card-social-links-icon' to='https://www.instagram.com/andrea_bredice/'>
+                <FaInstagram className='tybearder-about-card-social-links-icon-fa'/>
               </Link>
             </li>
             <li>
-              <Link className='tybearder-about-card-social-links-icon' to="https://www.instagram.com/andrea_bredice/">
-                <FaInstagram />
-              </Link>
-            </li>
-            <li>
-              <Link className='tybearder-about-card-social-links-icon' to="https://github.com/dasher7">
-                <FaGithub />
-              </Link>
-            </li>
-            <li>
-              <Link className='tybearder-about-card-social-links-icon' to="https://dev.to/dasher7">
-                <FaDev />
+              <Link className='tybearder-about-card-social-links-icon' to='https://medium.com/@bredice.andrea'>
+                <FaMediumM className='tybearder-about-card-social-links-icon-fa'/>
               </Link>
             </li>
           </ul>

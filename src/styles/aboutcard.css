@@ -37,6 +37,11 @@
   color: var(--tybearder-header-text-color);
 }
 
+.tybearder-about-card-social-links-icon-fa {
+  width: 24px;
+  height: 24px;
+}
+
 .wrapper-icon-item {
   display: flex;
   justify-content: center;
