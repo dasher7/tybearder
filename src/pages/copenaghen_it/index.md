@@ -9,8 +9,13 @@ language: it
 image: copenaghen
 ---
 
-<!-- ![](../../images/copenaghen.jpeg) -->
 
+<!-- <img class="margin" src='../../images/copenaghen.JPG'/> -->
+<!-- <span class="margin">
+![](../../images/copenaghen.JPG)
+</span> -->
+<br/>
+<br/>
 Erano le otto di sera e stavo girovagando per la via principale della città. Il cielo della notte era di un nero piatto e l’oscurità che emanava veniva tagliata solo dalle luci giallognole dei lampioni sparsi qua e là lungo la via. Ero un uomo del nord, trapiantato ancora più a nord, in un paese straniero, coi suoi ritmi e con le sue tradizioni. Le serrande dei negozi erano già tutte abbassate, in giro c’era poca gente e tutto appariva ordinatamente calmo.
 <br/>
 <br/>
@@ -51,5 +56,4 @@ Media statura, capelli di un nero corvino con qualche sfumatura di un verde fin 
 <br/>
 <br/>
 Cristina ha un’altra particolarità: non permette di scattare foto alle sue opere. Non per gelosia, non per manie di grandezza. Vuole che le sue opere siano vissute, che siano raccontate, vuole che le sue opere lascino memorie da tramandare, momenti e sensazioni da raccontare. Come questa nottata, questa nottata mi ha lasciato molte cose da raccontare.
-
 
