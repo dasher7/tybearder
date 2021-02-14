@@ -9,7 +9,7 @@ language: en
 image: copenaghen
 ---
 
-<!-- ![](../../images/copenaghen.JPG) -->
+![](../../images/copenaghen.JPG)
 
 8 PM and I was wandering around the main street of the city. The sky of that night was flat black and the darkness was cut only by the yellowish lights of the street lamps scattered here and there along the street. I was a man from the north, transplanted even further north, in a foreign country, with its rhythms and traditions. The shop shutters were already all down, there were few people around and everything appeared neatly calm.
 <br/>

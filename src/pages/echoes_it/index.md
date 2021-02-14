@@ -9,8 +9,6 @@ language: it
 image: echo
 ---
 
-<!-- ![](../../images/echo_b.jpg) -->
-
 Immagina di star camminando, lungo la via principale della tua città. In mezzo alla folla, con le carezza dei suoni aggrovigliati delle persone schermati dalle cuffie, che suonano a ritmo del tuo umore.
 <br/>
 <br/>
@@ -21,6 +19,11 @@ Sei nella tua camera da letto, avvolto da quell’aria di casa tanto familiare m
 <br/>
 <br/> 
 Scalzo, lungo la riva del mare, attraverso il rosa di una tenera alba. L’odore della salsedine che si mischia al tuo sudore, la gola secca e i polmoni che si stringono, la fatica che la fa da padrone ma perde dala gioia di essere liberi e non avere un orizzonte che ti limita. Sogna di poter arrivare dove vuoi, verso l’infinito ed oltre. Poi però ti fermi, le mani si appoggiano sulle ginocchia e la schiena si curva mentre il respiro diventa sempre più affannoso.
+<br/>
+<br/>
+<br/>
+<img src='../../images/echo_b.jpg'/>
+<br/>
 <br/>
 <br/> 
 Una goccia di sudore scende dalla fronte, attraverso l’occhio chiuso si fa strada, e dalla punta del naso, cade per terra.Chiudi gli occhi.Immagina di essere seduto. La sedia della tua scrivania è diventata come il trono di un re, da cui vedere e sentire tutto ciò che c’è da sentire a proposito del mondo. I giorni sembrano ripetersi, uno simile all’altro, la notte che si mischia col giorno. 

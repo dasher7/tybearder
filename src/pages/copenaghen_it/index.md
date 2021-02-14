@@ -10,10 +10,7 @@ image: copenaghen
 ---
 
 
-<!-- <img class="margin" src='../../images/copenaghen.JPG'/> -->
-<!-- <span class="margin">
-![](../../images/copenaghen.JPG)
-</span> -->
+<img class="margin" src='../../images/copenaghen.JPG'/>
 <br/>
 <br/>
 Erano le otto di sera e stavo girovagando per la via principale della città. Il cielo della notte era di un nero piatto e l’oscurità che emanava veniva tagliata solo dalle luci giallognole dei lampioni sparsi qua e là lungo la via. Ero un uomo del nord, trapiantato ancora più a nord, in un paese straniero, coi suoi ritmi e con le sue tradizioni. Le serrande dei negozi erano già tutte abbassate, in giro c’era poca gente e tutto appariva ordinatamente calmo.

@@ -9,8 +9,6 @@ language: it
 image: trieste
 ---
 
-<!-- ![](../../images/trieste.jpeg) -->
-
 <div style="text-align:center">
 Sola e isolata se ne sta.
 <br/>
@@ -65,6 +63,10 @@ quando è buio e ti lasci cullare dalle sue curve,
 <br/>
 <br/>
 in un abbraccio che assorbe le acque calme e malinconiche che ti bagnano,di una tristezza che la caratterizza e valorizza.
-
+<br/>
+<br/>
 Per lei non si va, a lei ci si abbandona, ammaliati,affascinati e riscaldati dalla sua pelle bianca,dominati e schiacciati da un peso che nessuno può reggere,solo lei, solo lei,per questo, quando decide che è il tuo momento, la guardi un’ultima volta.
+<br/>
+<br/>
+<img src='../../images/trieste.png'/>
 </div>

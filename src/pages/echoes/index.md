@@ -9,8 +9,6 @@ language: en
 image: echo
 ---
 
-<!-- ![](../../images/echo_b.jpg) -->
-
 Imagine that you are walking along the main street of your City. In the midst of the crowd, with the caresses of the tangled sounds of people shielded by yours headphones, playing to the rhythm of your mood. The sun is setting and softening the wrinkles of the buildings that embrace the sides of the street. The lights of the shops, hidden by the arcades, decorate the street like a Christmas tree and fill it with smells and perfumes, as if the one the of the woman who has just touched you, without even noticing, armed with black glasses and a quick step, was not enough.
 The office is behind us, the day is over. Friends are at the bar, the evening begins.
 Close your eyes.
@@ -24,6 +22,10 @@ Close your eyes.
 <br/>
 Imagine running. Barefoot, along the seashore, through the pink of a tender sunrise. The smell of the salt that mixes with your sweat, the dry throat and the lungs that tighten, the fatigue that is the master but loses from the joy of being free and not having a horizon that limits you. Dream of being able to get where you want, to infinity and beyond. But then you stop, the hands rest on the knees and the back curves as the breath becomes more and more labored. A drop of sweat falls from the forehead, through the closed eye it makes its way, and from the tip of the nose, it falls to the ground.
 Close your eyes.
+<br/>
+<br/>
+<br/>
+<img src='../../images/echo_b.jpg'/>
 <br/>
 <br/>
 <br/>

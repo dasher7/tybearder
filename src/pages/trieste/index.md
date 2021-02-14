@@ -9,8 +9,6 @@ language: en
 image: trieste
 ---
 
-<!-- ![](../../images/trieste.jpeg) -->
-
 <div style="text-align:center">
 Alone e lonely She stands.
 <br/>
@@ -69,4 +67,5 @@ only her, only her,
 here is why, when She decides it's your time, you look at her one last time.
 <br/>
 <br/>
+<img src='../../images/trieste.png'/>
 </div>

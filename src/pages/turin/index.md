@@ -14,8 +14,6 @@ language: en
 image: turin
 ---
 
-<!-- ![](../../images/turin_b.jpg) -->
-
 I expected a cold city.
 <br/>
 I expected an austere city.
@@ -64,3 +62,6 @@ Turin is just that lady there, the one who passes by you sideways, pedantic and 
 Turin is just that lady there, who, just when she passes you by, crosses your eyes with her icy, glassy eyes of emotion, but that smiles at you, just before turning the corner and disappearing.
 <br/>
 Turin is a city that does not ask you for anything and does not want anything, but the sound of those heels echoes in your soul as well as the desire to meet that glance persists, at least another time.
+<br/>
+<br/>
+<img src='../../images/turin_b.jpg'/>

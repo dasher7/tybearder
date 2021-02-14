@@ -18,8 +18,6 @@ language: en
 image: dreams
 ---
 
-<!-- ![](../../images/dreams_b.jpg) -->
-
 <div style="text-align:center">
 There is one frightened,
 <br/>
@@ -78,4 +76,6 @@ firm, unforgettable, locked up
 <br/>
 in a sphere of frozen glass.
 <br/>
+<br/>
+<img src='../../images/dreams_b.jpg'/>
 </div>
