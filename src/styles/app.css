@@ -13,12 +13,11 @@
   --tybearder: "Rock Salt", cursive;
 
   --tybearder-background-body: #ffffff;
-  --tybearder-background-blog-post: #EEFBFB;
-  --tybearder-header-title: 'Vollkorn', serif;
-  --tybearder-header-text-color: #DDE7EF;
-  --tybearder-content-title-color: #12232E;
-  --tybearder-background-blog-list-color: #EEFBFB;
-
+  --tybearder-background-blog-post: #eefbfb;
+  --tybearder-header-title: "Vollkorn", serif;
+  --tybearder-header-text-color: #dde7ef;
+  --tybearder-content-title-color: #12232e;
+  --tybearder-background-blog-list-color: #eefbfb;
 }
 
 * {
@@ -29,6 +28,7 @@
 
 html {
   font-size: 16px;
+  margin: 8em;
 }
 
 body {
