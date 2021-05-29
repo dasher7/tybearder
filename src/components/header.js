@@ -32,6 +32,12 @@ const Header = ({ siteTitle }) => {
       {
         isDesktop &&
         <div className='tybearder-header-wrapper-flex'>
+
+          <div className='tybearder-image-wrapper-flex'>
+            <Image filename='scarlatte_w_bg.png' className='tybearder-logo'/>
+            <span className='tybearder-slogan'>Caldo da frigorifero</span>
+          </div>
+
             <ul className="tybearder-header-navbar">
               <li>
                 <Link className="tybearder-header-navbar-items" to="/">
@@ -45,11 +51,9 @@ const Header = ({ siteTitle }) => {
                   <FormattedMessage id='podcast'/>
                   {/* PODCAST */}
                 </Link>
-              </li>
-            </ul>
-            <Image filename='scarlatte_w_bg.png' className='tybearder-logo'/>
-            <ul className="tybearder-header-navbar">
-              <li>
+            </li>
+            <span className="tybearder-header-navbar-separator"></span>
+            <li>
                 <Link className="tybearder-header-navbar-items" to="/contact">
                   <FormattedMessage id='contact'/>
                   {/* CONTACT */}
