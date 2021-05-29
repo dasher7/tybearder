@@ -46,15 +46,15 @@ const Layout = ({ children }) => {
                     ({lang, toggleLanguage}) => (
                       <IntlProvider locale={lang} messages={lang === 'en' ? localEng : localeIt}>
                         <>
-                          <div className='test-left' onClick={toggleLanguage}>
+                          {/* <div className='test-left' onClick={toggleLanguage}>
                             <div className='test-text' onClick={toggleLanguage}>
                               <Image filename='ita.png'/>
                             </div>
                             <div className='test-text' onClick={toggleLanguage}>
                               <Image filename='uk.png'/>
                             </div>
-                          </div>
-                          <div className='test-right'>
+                          </div> */}
+                          {/* <div className='test-right'>
                             <Link to='https://t.me/tybearder'>
                               <FaTelegram className='test-icon'/>
                             </Link>
@@ -67,7 +67,7 @@ const Layout = ({ children }) => {
                             <Link to='https://medium.com/@bredice.andrea'>
                               <FaMediumM className='test-icon'/>
                             </Link>
-                          </div>
+                          </div> */}
 
                           <Header siteTitle={data.site.siteMetadata.title} />
                             <div className="tybearder-blog-post-wrapper">
@@ -96,7 +96,7 @@ const Layout = ({ children }) => {
                         <div className="tybearder-blog-post-wrapper">
                           {children}
                         </div>
-                        <div className='test-bottom'>
+                        {/* <div className='test-bottom'> */}
                             {/* <div className='test-text-bottom' onClick={toggleLanguage}>
                               <Image filename='ita.png'/>
                             </div>
@@ -105,7 +105,7 @@ const Layout = ({ children }) => {
                               <Image filename='uk.png'/>
                             </div> */}
                             {/* <hr className='divider'/> */}
-                            <Link to='https://open.spotify.com/show/6SR26ieg3rGowH22ECxFd3?si=n7fvAdKJQyOvU1aqRhg--g'>
+                            {/* <Link to='https://open.spotify.com/show/6SR26ieg3rGowH22ECxFd3?si=n7fvAdKJQyOvU1aqRhg--g'>
                               <FaSpotify className='test-icon'/>
                             </Link>
                             <span>/</span>
@@ -115,8 +115,8 @@ const Layout = ({ children }) => {
                             <span>/</span>
                             <Link to='https://www.instagram.com/andrea_bredice/'>
                               <FaInstagram className='test-icon'/>
-                            </Link>
-                        </div>  
+                            </Link> */}
+                        {/* </div>   */}
                        </>
                      </IntlProvider>
                 )
